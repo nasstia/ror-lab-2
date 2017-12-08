@@ -14,10 +14,10 @@ before_action :set_post, only:[:show, :edit, :update, :destroy]
   	@post = current_user.posts.build(post_params)
   	if @post.save
   		redirect_to root_path
-  	else
-  	render 'new'
-  	end
-
+  	else 
+  	render 'new'	
+  	end	
+  		
   end
 
   def edit

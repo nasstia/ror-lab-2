@@ -1,7 +1,5 @@
 <%= link_to "upload new photo", new_photo_path, class: "btn btn-default" %>
 <br/>
-<%= link_to "upload multiple photo", new_image_path, class: "btn btn-default" %>
-<br/>
 
 <%= select_tag "category_id", options_from_collection_for_select(Category.all, :id,:name) %>
 
@@ -18,10 +16,6 @@
     <%= photo.category.name %>
     <br/>
     <%= photo.user.nickname %>
-    <br/>
-    
-    <%= link_to "Like", vote_photo_path(photo.id) %>
-    (<%= @like[photo.id] %>)
     <br/>
     <%= link_to "Edit photo", edit_photo_path(photo.id), class: "btn btn-default" %>
     <br/>
