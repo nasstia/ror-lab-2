@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20171201103857) do
-=======
-ActiveRecord::Schema.define(version: 20171125164847) do
->>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -61,7 +57,6 @@ ActiveRecord::Schema.define(version: 20171125164847) do
     t.datetime "updated_at", null: false
   end
 
-<<<<<<< HEAD
   create_table "images", force: :cascade do |t|
     t.integer "user_id"
     t.datetime "created_at", null: false
@@ -72,8 +67,6 @@ ActiveRecord::Schema.define(version: 20171125164847) do
     t.datetime "image_updated_at"
   end
 
-=======
->>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
   create_table "photos", force: :cascade do |t|
     t.string "name"
     t.integer "user_id"
@@ -121,7 +114,6 @@ ActiveRecord::Schema.define(version: 20171125164847) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-<<<<<<< HEAD
   create_table "votes", force: :cascade do |t|
     t.integer "user_id"
     t.integer "photo_id"
@@ -130,6 +122,4 @@ ActiveRecord::Schema.define(version: 20171125164847) do
     t.datetime "updated_at", null: false
   end
 
-=======
->>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 end

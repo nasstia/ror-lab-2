@@ -1,23 +1,14 @@
 class PhotosController < ApplicationController
 before_action :authenticate_user!
-<<<<<<< HEAD
 before_action :photo_set, only:[:show, :edit, :update, :destroy, :vote]
 
   def index
     @photos = Photo.all
     @like = {}
     @photos.each do |photo|
-      @vote = Vote.find_by_photo_id(photo.id)
-      if !@vote.nil?
-        @like[photo.id] = @vote.like
-      end
+      @votes = Vote.where(photo_id: photo.id).sum(:like)
+      @like[photo.id] = @votes
     end
-=======
-before_action :photo_set, only:[:show, :edit, :update, :destroy]
-
-  def index
-    @photos = Photo.all
->>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
   end
 
   def new
@@ -46,21 +37,18 @@ before_action :photo_set, only:[:show, :edit, :update, :destroy]
     redirect_to photos_path
   end
 
-<<<<<<< HEAD
   def vote
-    pp @photo = Photo.find(params[:id])
-    pp @vote = Vote.find_by_photo_id(@photo.id)
-    if @vote == nil
+    @photo = Photo.find(params[:id])
+    @vote = Vote.where(user_id: current_user.id, photo_id: @photo.id).first
+    if @vote == nil || @vote.like == 0
        @like = 1
        Vote.create(user_id: current_user.id, photo_id: @photo.id, like: @like)
      else
-       @vote.update(like: @vote.like + 1)
+       @vote.update(like: @vote.like - 1)
     end
     redirect_to photos_path
   end
 
-=======
->>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 private
 
   def photo_params
@@ -68,11 +56,7 @@ private
   end
 
   def photo_set
-<<<<<<< HEAD
     pp @photo = Photo.find(params[:id])
-=======
-    @photo = Photo.find(params[:id])
->>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
   end
 
 end

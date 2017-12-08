@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // This is a manifest file that'll be compiled into application.js, which will include all the files
-=======
-w// This is a manifest file that'll be compiled into application.js, which will include all the files
->>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 // listed below.
 //
 // Any JavaScript/Coffee file within this directory, lib/assets/javascripts, or any plugin's
