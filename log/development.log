@@ -351,9 +351,15 @@ Completed 200 OK in 214ms (Views: 212.3ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/routs" for 127.0.0.1 at 2017-10-30 12:30:54 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/routs"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/routs"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -880,9 +886,15 @@ Completed 200 OK in 216ms (Views: 204.2ms | ActiveRecord: 2.9ms)
 
 
 Started GET "/routs" for 127.0.0.1 at 2017-10-30 12:52:34 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/routs"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/routs"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1080,10 +1092,17 @@ Processing by PostsController#create as HTML
 Completed 500 Internal Server Error in 825ms (ActiveRecord: 175.1ms)
 
 
+<<<<<<< HEAD
   
 NameError (undefined local variable or method `redirect_to_rooth_path' for #<PostsController:0x007fc904515598>
 Did you mean?  redirect_back):
   
+=======
+
+NameError (undefined local variable or method `redirect_to_rooth_path' for #<PostsController:0x007fc904515598>
+Did you mean?  redirect_back):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/posts_controller.rb:11:in `create'
 Started POST "/posts" for 127.0.0.1 at 2017-10-30 13:17:48 +0200
 Processing by PostsController#create as HTML
@@ -1095,10 +1114,17 @@ Processing by PostsController#create as HTML
 Completed 500 Internal Server Error in 943ms (ActiveRecord: 225.7ms)
 
 
+<<<<<<< HEAD
   
 NameError (undefined local variable or method `redirect_to_root_path' for #<PostsController:0x007fc8fb3bd168>
 Did you mean?  redirect_to):
   
+=======
+
+NameError (undefined local variable or method `redirect_to_root_path' for #<PostsController:0x007fc8fb3bd168>
+Did you mean?  redirect_to):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/posts_controller.rb:11:in `create'
 Started POST "/posts" for 127.0.0.1 at 2017-10-30 13:18:28 +0200
 Processing by PostsController#create as HTML
@@ -1599,7 +1625,11 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 675ms (ActiveRecord: 0.8ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined local variable or method `current_user_id' for #<#<Class:0x00000004dd7bc0>:0x007fc8fb47d2b0>
 Did you mean?  current_user):
     3: <% @posts.each do |post| %>
@@ -1609,7 +1639,11 @@ Did you mean?  current_user):
     7: 		<%= link_to "Edit" %>
     8: 		<%= link_to "Delete" %>
     9: 	<% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb__440703420227293920_70250592988900'
 app/views/pages/index.html.erb:3:in `_app_views_pages_index_html_erb__440703420227293920_70250592988900'
 Started GET "/" for 127.0.0.1 at 2017-10-30 13:31:42 +0200
@@ -1756,9 +1790,15 @@ Completed 200 OK in 184ms (Views: 177.2ms | ActiveRecord: 1.4ms)
 
 
 Started POST "/posts/1" for 127.0.0.1 at 2017-10-30 13:38:38 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [POST] "/posts/1"):
   
+=======
+
+ActionController::RoutingError (No route matches [POST] "/posts/1"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1787,9 +1827,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started POST "/posts/1" for 127.0.0.1 at 2017-10-30 13:40:01 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [POST] "/posts/1"):
   
+=======
+
+ActionController::RoutingError (No route matches [POST] "/posts/1"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -2198,9 +2244,15 @@ Processing by Admin::PostsController#create as HTML
 Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
   
+=======
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 activemodel (5.1.4) lib/active_model/forbidden_attributes_protection.rb:21:in `sanitize_for_mass_assignment'
 activemodel (5.1.4) lib/active_model/attribute_assignment.rb:33:in `assign_attributes'
 activerecord (5.1.4) lib/active_record/core.rb:337:in `initialize'
@@ -2281,9 +2333,15 @@ Processing by Admin::PostsController#create as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
   
+=======
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 activemodel (5.1.4) lib/active_model/forbidden_attributes_protection.rb:21:in `sanitize_for_mass_assignment'
 activemodel (5.1.4) lib/active_model/attribute_assignment.rb:33:in `assign_attributes'
 activerecord (5.1.4) lib/active_record/core.rb:337:in `initialize'
@@ -2497,9 +2555,15 @@ Completed 200 OK in 206ms (Views: 195.5ms | ActiveRecord: 0.9ms)
 
 
 Started GET "/posts" for 127.0.0.1 at 2017-11-02 19:59:39 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -2611,9 +2675,15 @@ Completed 200 OK in 203ms (Views: 194.7ms | ActiveRecord: 1.0ms)
 
 
 Started GET "/posts" for 127.0.0.1 at 2017-11-02 20:00:35 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -3861,9 +3931,15 @@ Completed 200 OK in 189ms (Views: 182.6ms | ActiveRecord: 1.0ms)
 
 
 Started GET "/posts/1" for 127.0.0.1 at 2017-11-06 12:37:31 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'show' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'show' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -3951,17 +4027,28 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 738ms (ActiveRecord: 1.0ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f365a71d738>:0x007f365a7cb068>
 Did you mean?  @post):
     2: 
+=======
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f365a71d738>:0x007f365a7cb068>
+Did you mean?  @post):
+    2:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     3: <h1><%= @post.title %></h1>
     4: <p>
     5: 	Autor:<%= post.user.nickname %> |
     6: 	Creeated at:<%= post.created_at %> |
     7: 	Update at:<%= post.updated_at %>
     8: </p>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/posts/show.html.erb:5:in `_app_views_posts_show_html_erb__3261939331976485002_69935711187260'
 Started GET "/posts/1" for 127.0.0.1 at 2017-11-06 12:41:22 +0200
 Processing by PostsController#show as HTML
@@ -3973,6 +4060,7 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 746ms (ActiveRecord: 1.9ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f365a71d738>:0x007f364464bcd0>
 Did you mean?  @post):
@@ -3981,6 +4069,16 @@ Did you mean?  @post):
     3: <h1><%= @post.title %></h1>
     4: <p><%= post.body %></p>
   
+=======
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f365a71d738>:0x007f364464bcd0>
+Did you mean?  @post):
+    1:
+    2:
+    3: <h1><%= @post.title %></h1>
+    4: <p><%= post.body %></p>
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/posts/show.html.erb:4:in `_app_views_posts_show_html_erb__3261939331976485002_69935526167780'
 Started GET "/posts/1" for 127.0.0.1 at 2017-11-06 12:41:45 +0200
 Processing by PostsController#show as HTML
@@ -4209,9 +4307,15 @@ Completed 200 OK in 228ms (Views: 219.3ms | ActiveRecord: 2.9ms)
 
 Started GET "/routs" for 127.0.0.1 at 2017-11-06 12:54:46 +0200
   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/routs"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/routs"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -4366,9 +4470,15 @@ Completed 200 OK in 235ms (Views: 188.6ms | ActiveRecord: 2.9ms)
 
 
 Started POST "/posts/4/postcomments" for 127.0.0.1 at 2017-11-06 13:17:17 +0200
+<<<<<<< HEAD
   
 SyntaxError (/home/ander/sites/blog/app/controllers/postcomments_controller.rb:17: syntax error, unexpected keyword_end, expecting end-of-input):
   
+=======
+
+SyntaxError (/home/ander/sites/blog/app/controllers/postcomments_controller.rb:17: syntax error, unexpected keyword_end, expecting end-of-input):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/postcomments_controller.rb:17: syntax error, unexpected keyword_end, expecting end-of-input
 Started POST "/posts/4/postcomments" for 127.0.0.1 at 2017-11-06 13:17:52 +0200
 Processing by PostcommentsController#create as HTML
@@ -4382,9 +4492,15 @@ Processing by PostcommentsController#create as HTML
 Completed 500 Internal Server Error in 340ms (ActiveRecord: 259.5ms)
 
 
+<<<<<<< HEAD
   
 ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"posts", :id=>nil}, missing required keys: [:id]):
   
+=======
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"posts", :id=>nil}, missing required keys: [:id]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/postcomments_controller.rb:8:in `create'
 Started GET "/posts/4/" for 127.0.0.1 at 2017-11-06 13:18:04 +0200
 Processing by PostsController#show as HTML
@@ -4491,6 +4607,7 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `each' for nil:NilClass):
      8: </p>
@@ -4501,6 +4618,18 @@ ActionView::Template::Error (undefined method `each' for nil:NilClass):
     13: <% end %>
     14: 
   
+=======
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8: </p>
+     9: <p><%= @post.body %></p>
+    10:
+    11: <% @comments.each do |comment| %>
+    12: <%= comment.comment %>
+    13: <% end %>
+    14:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb__2674684597879484523_69934333107340'
 Started GET "/posts/4" for 127.0.0.1 at 2017-11-06 13:24:27 +0200
 Processing by PostsController#show as HTML
@@ -4514,16 +4643,28 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.2ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `user' for "test comment":String):
      9: <p><%= @post.body %></p>
     10: 
+=======
+
+ActionView::Template::Error (undefined method `user' for "test comment":String):
+     9: <p><%= @post.body %></p>
+    10:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     11: <% @comment.each do |comment| %>
     12: <p><%= comment.comment.user %></p>
     13: <p><%= comment.comment %></p>
     14: <% end %>
+<<<<<<< HEAD
     15: 
   
+=======
+    15:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb__2674684597879484523_45431640'
 app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb__2674684597879484523_45431640'
 Started GET "/posts/4" for 127.0.0.1 at 2017-11-06 13:24:42 +0200
@@ -4551,16 +4692,28 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.0ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `user' for "test comment":String):
      9: <p><%= @post.body %></p>
     10: 
+=======
+
+ActionView::Template::Error (undefined method `user' for "test comment":String):
+     9: <p><%= @post.body %></p>
+    10:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     11: <% @comment.each do |comment| %>
     12: <p>User <b><%= comment.comment.user.nickname %></b> say:</p>
     13: <p><%= comment.comment %></p>
     14: <% end %>
+<<<<<<< HEAD
     15: 
   
+=======
+    15:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb__2674684597879484523_69934335380140'
 app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb__2674684597879484523_69934335380140'
 Started GET "/posts/4" for 127.0.0.1 at 2017-11-06 13:26:22 +0200
@@ -4575,16 +4728,28 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 18ms (ActiveRecord: 1.1ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `user' for "test comment":String):
      9: <p><%= @post.body %></p>
     10: 
+=======
+
+ActionView::Template::Error (undefined method `user' for "test comment":String):
+     9: <p><%= @post.body %></p>
+    10:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     11: <% @comment.each do |comment| %>
     12: <p>User <%= comment.comment.user.nickname %> say:</p>
     13: <p><%= comment.comment %></p>
     14: <% end %>
+<<<<<<< HEAD
     15: 
   
+=======
+    15:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb__2674684597879484523_69934328423140'
 app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb__2674684597879484523_69934328423140'
 Started GET "/posts/4" for 127.0.0.1 at 2017-11-06 13:26:23 +0200
@@ -4599,16 +4764,30 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `user' for "test comment":String):
      9: <p><%= @post.body %></p>
     10: 
+=======
+
+ActionView::Template::Error (undefined method `user' for "test comment":String):
+     9: <p><%= @post.body %></p>
+    10:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     11: <% @comment.each do |comment| %>
     12: <p>User <%= comment.comment.user.nickname %> say:</p>
     13: <p><%= comment.comment %></p>
     14: <% end %>
+<<<<<<< HEAD
     15: 
   
+=======
+    15:
+
+    15:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb__2674684597879484523_69934341098720'
 app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb__2674684597879484523_69934341098720'
 Started GET "/posts/4" for 127.0.0.1 at 2017-11-06 13:27:28 +0200
@@ -5222,9 +5401,15 @@ Processing by Devise::RegistrationsController#create as HTML
 Completed 500 Internal Server Error in 268ms (ActiveRecord: 1.7ms)
 
 
+<<<<<<< HEAD
   
 Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
   
+=======
+
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 paperclip (5.1.0) lib/paperclip/attachment.rb:405:in `ensure_required_validations!'
 paperclip (5.1.0) lib/paperclip/attachment.rb:102:in `assign'
 paperclip (5.1.0) lib/paperclip/has_attached_file.rb:66:in `block in define_setter'
@@ -5398,16 +5583,26 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 37ms (ActiveRecord: 1.2ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `avatar' for nil:NilClass):
     2: 
+=======
+
+ActionView::Template::Error (undefined method `avatar' for nil:NilClass):
+    2:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     3: <% @posts.each do |post| %>
     4: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     5: 	<p>	<%= image_tag @user.avatar.url(:medium) %>
     6: 		Autor:<%= post.user.nickname %> |
     7: 		Creeated at:<%= post.created_at %>
     8: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:5:in `block in _app_views_pages_index_html_erb___4569126473936490393_35448740'
 app/views/pages/index.html.erb:3:in `_app_views_pages_index_html_erb___4569126473936490393_35448740'
 Started GET "/" for 127.0.0.1 at 2017-11-13 12:28:49 +0200
@@ -5482,11 +5677,19 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.2ms)
 
 
+<<<<<<< HEAD
   
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/pages/index.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
 st.user.avatar.url, width:30px, height:30px );@output_buffer
                               ^):
   
+=======
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/pages/index.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+st.user.avatar.url, width:30px, height:30px );@output_buffer
+                              ^):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
 Started GET "/" for 127.0.0.1 at 2017-11-13 12:30:54 +0200
 Processing by PagesController#index as HTML
@@ -5496,14 +5699,22 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/pages/index.html.erb:5: syntax error, unexpected ':', expecting ')'
  post.user.avatar.url, width : 30px, height : 30px );@output
                               ^
 /home/theblackarrow/Desktop/RubyOnRails/blog/app/views/pages/index.html.erb:5: syntax error, unexpected ':', expecting '='
 ar.url, width : 30px, height : 30px );@output_buffer.safe_ap
                               ^):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:5: syntax error, unexpected ':', expecting ')'
 app/views/pages/index.html.erb:5: syntax error, unexpected ':', expecting '='
 Started GET "/" for 127.0.0.1 at 2017-11-13 12:31:45 +0200
@@ -5565,12 +5776,20 @@ Completed 200 OK in 217ms (Views: 207.8ms | ActiveRecord: 1.0ms)
 
 
 Started POST "/posts/4/postcomments" for 127.0.0.1 at 2017-11-13 12:39:51 +0200
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/controllers/postcomments_controller.rb:15: syntax error, unexpected ')', expecting ']'
 ect_to post_path(params[:post)id])
                               ^
 /home/theblackarrow/Desktop/RubyOnRails/blog/app/controllers/postcomments_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/postcomments_controller.rb:15: syntax error, unexpected ')', expecting ']'
 app/controllers/postcomments_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
 Started POST "/posts/4/postcomments" for 127.0.0.1 at 2017-11-13 12:40:09 +0200
@@ -5584,9 +5803,15 @@ Processing by PostcommentsController#create as HTML
 Completed 500 Internal Server Error in 53ms (ActiveRecord: 3.8ms)
 
 
+<<<<<<< HEAD
   
 NoMethodError (undefined method `save' for nil:NilClass):
   
+=======
+
+NoMethodError (undefined method `save' for nil:NilClass):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/postcomments_controller.rb:8:in `create'
 Started GET "/posts/4" for 127.0.0.1 at 2017-11-13 12:43:08 +0200
 Processing by PostsController#show as HTML
@@ -5614,9 +5839,15 @@ Processing by PostcommentsController#create as HTML
 Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.7ms)
 
 
+<<<<<<< HEAD
   
 NoMethodError (undefined method `save' for nil:NilClass):
   
+=======
+
+NoMethodError (undefined method `save' for nil:NilClass):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/postcomments_controller.rb:8:in `create'
 Started GET "/posts/4" for 127.0.0.1 at 2017-11-13 12:44:15 +0200
 Processing by PostsController#show as HTML
@@ -5749,9 +5980,15 @@ Processing by PostcommentsController#create as HTML
 Completed 500 Internal Server Error in 170ms (ActiveRecord: 159.6ms)
 
 
+<<<<<<< HEAD
   
 NoMethodError (undefined method `save' for nil:NilClass):
   
+=======
+
+NoMethodError (undefined method `save' for nil:NilClass):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/postcomments_controller.rb:9:in `create'
 Started POST "/posts/4/postcomments" for 127.0.0.1 at 2017-11-13 12:45:28 +0200
 Processing by PostcommentsController#create as HTML
@@ -5953,6 +6190,7 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 404ms (ActiveRecord: 6.0ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (Invalid CSS after "@": expected identifier, was "@import "posts";"):
     4:     <title>Blog</title>
@@ -5963,6 +6201,18 @@ ActionView::Template::Error (Invalid CSS after "@": expected identifier, was "@i
     9:   </head>
    10: 
   
+=======
+
+ActionView::Template::Error (Invalid CSS after "@": expected identifier, was "@import "posts";"):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/assets/stylesheets/application.scss:20
 app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1340069931502442116_55042360'
 Started GET "/posts/4" for 127.0.0.1 at 2017-11-13 13:04:48 +0200
@@ -6207,14 +6457,22 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/users/registrations/new.html.erb:3: syntax error, unexpected tLABEL
 ath(resource_name)), validate: true do |f| @output_buffer.sa
                               ^
 /home/theblackarrow/Desktop/RubyOnRails/blog/app/views/users/registrations/new.html.erb:41: syntax error, unexpected keyword_ensure, expecting end-of-input
           ensure
                 ^):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/users/registrations/new.html.erb:3: syntax error, unexpected tLABEL
 app/views/users/registrations/new.html.erb:41: syntax error, unexpected keyword_ensure, expecting end-of-input
 Started GET "/users/sign_up" for 127.0.0.1 at 2017-11-20 10:30:25 +0200
@@ -6239,9 +6497,15 @@ Completed 200 OK in 474ms (Views: 194.7ms | ActiveRecord: 0.2ms)
 
 
 Started GET "/users?validate=true" for 127.0.0.1 at 2017-11-20 10:30:40 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/users"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -6291,9 +6555,15 @@ Completed 200 OK in 218ms (Views: 206.3ms | ActiveRecord: 0.2ms)
 
 
 Started GET "/users" for 127.0.0.1 at 2017-11-20 10:32:15 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/users"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -6455,7 +6725,11 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/users/registrations/new.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting ')'
 or(resource, validate: true as: resource_name, url: registra
                               ^
@@ -6465,7 +6739,11 @@ istration_path(resource_name)) do |f| @output_buffer.safe_ap
 /home/theblackarrow/Desktop/RubyOnRails/blog/app/views/users/registrations/new.html.erb:41: syntax error, unexpected keyword_ensure, expecting end-of-input
           ensure
                 ^):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/users/registrations/new.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting ')'
 app/views/users/registrations/new.html.erb:3: syntax error, unexpected ')', expecting keyword_end
 app/views/users/registrations/new.html.erb:41: syntax error, unexpected keyword_ensure, expecting end-of-input
@@ -6720,6 +6998,7 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 
@@ -6729,6 +7008,17 @@ ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2))
     6: 
     7: <% end %>
   
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2:
+    3: <%= render 'posts/form' , f:f %>
+    4:
+    5: <%= f.text_area :content, "", :class => "tinymce", :rows => 40, :cols => 120 %>
+    6:
+    7: <% end %>
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/new.html.erb:5:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228453655260'
 app/views/posts/new.html.erb:1:in `_app_views_posts_new_html_erb___2144111558030299798_70228453655260'
@@ -6741,6 +7031,7 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 
@@ -6751,6 +7042,18 @@ ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2))
     7: 
     8: 
   
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2:
+    3: <%= render 'posts/form' , f:f %>
+    4:
+    5: <!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 40, :cols => 120 %> -->
+    6: <%= f.text_area :content, :class => "tinymce", :rows => 40, :cols => 120 %>
+    7:
+    8:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/new.html.erb:5:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228463056080'
 app/views/posts/new.html.erb:1:in `_app_views_posts_new_html_erb___2144111558030299798_70228463056080'
@@ -6763,6 +7066,7 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 
@@ -6773,6 +7077,18 @@ ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2))
     7: 
     8: <% end %>
   
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2:
+    3: <%= render 'posts/form' , f:f %>
+    4:
+    5: <%= f.text_area :content, "", :class => "tinymce", :rows => 40, :cols => 120 %>
+    6: <%= tinymce %>
+    7:
+    8: <% end %>
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/new.html.erb:5:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228459067060'
 app/views/posts/new.html.erb:1:in `_app_views_posts_new_html_erb___2144111558030299798_70228459067060'
@@ -6785,6 +7101,7 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 
@@ -6795,6 +7112,18 @@ ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2))
     7: 
     8: <% end %>
   
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2:
+    3: <%= render 'posts/form' , f:f %>
+    4:
+    5: <%= f.text_area :content, "", :class => "tinymce", :rows => 40, :cols => 120 %>
+    6: <!-- <%= tinymce %> -->
+    7:
+    8: <% end %>
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/new.html.erb:5:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228644306220'
 app/views/posts/new.html.erb:1:in `_app_views_posts_new_html_erb___2144111558030299798_70228644306220'
@@ -6837,16 +7166,28 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
     6: 	<%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %>
     7: 	<%= tinymce %>
+<<<<<<< HEAD
     8: 
     9: 	<p><%= f.submit "Save" %></p>
   
+=======
+    8:
+    9: 	<p><%= f.submit "Save" %></p>
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:6:in `_app_views_posts__form_html_erb__3272937417315071649_70228458183680'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228458235340'
@@ -6860,17 +7201,30 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `content' for #<Post:0x007fbec2a59de8>
 Did you mean?  concern):
     3: 
+=======
+
+ActionView::Template::Error (undefined method `content' for #<Post:0x007fbec2a59de8>
+Did you mean?  concern):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
     6: 	<%= f.text_area :content, :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<%= tinymce %>
+<<<<<<< HEAD
     8: 
     9: 	<p><%= f.submit "Save" %></p>
   
+=======
+    8:
+    9: 	<p><%= f.submit "Save" %></p>
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):6:in `text_area'
 app/views/posts/_form.html.erb:6:in `_app_views_posts__form_html_erb__3272937417315071649_70228643045620'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228643070900'
@@ -6894,16 +7248,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
     6: 	<!-- <%= text_area_tag :content, :class => "tinymce", :rows => 40, :cols => 120 %> -->
     7: 	<%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %>
+<<<<<<< HEAD
     8: 	
     9: 	<%= tinymce %>
    10: 
   
+=======
+    8:
+    9: 	<%= tinymce %>
+   10:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:7:in `_app_views_posts__form_html_erb__3272937417315071649_70228459411660'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228459469980'
@@ -6917,16 +7282,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
     6: 	<!-- <%= text_area_tag :content, :class => "tinymce", :rows => 40, :cols => 120 %> -->
     7: 	<%= f.text_area :content, "",  :rows => 10, :cols => 40 %>
+<<<<<<< HEAD
     8: 
     9: 	<%= tinymce %>
    10: 
   
+=======
+    8:
+    9: 	<%= tinymce %>
+   10:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:7:in `_app_views_posts__form_html_erb__3272937417315071649_70228643703120'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228643679180'
@@ -6941,9 +7317,15 @@ Processing by PostsController#new as HTML
 Completed 200 OK in 223ms (Views: 219.6ms | ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/assets/tinymce/themes/simple/theme.js"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/assets/tinymce/themes/simple/theme.js"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -7010,9 +7392,18 @@ Completed 200 OK in 412ms (Views: 211.3ms | ActiveRecord: 0.7ms)
 
 
 Started GET "/posts" for 127.0.0.1 at 2017-11-20 12:18:51 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -7103,9 +7494,18 @@ Completed 200 OK in 220ms (Views: 210.2ms | ActiveRecord: 0.7ms)
 
 
 Started GET "/posts" for 127.0.0.1 at 2017-11-20 12:19:14 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -7158,9 +7558,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/posts" for 127.0.0.1 at 2017-11-20 12:19:15 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -7261,9 +7667,15 @@ Completed 200 OK in 227ms (Views: 220.9ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/posts" for 127.0.0.1 at 2017-11-20 12:20:11 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -7324,16 +7736,28 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %>
     6: 	<%= tinymce %>
     7: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
     8: 
   
+=======
+    8:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228455054020'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228650630660'
@@ -7347,16 +7771,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %> -->
     6: 	<%= f.text_area :content, :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<%= tinymce %>
     8: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228463174160'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228463236220'
@@ -7370,16 +7805,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %> -->
     6: 	<%= f.text_area :content, :class => "tinymce" %>
     7: 	<%= tinymce %>
     8: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228457861980'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228457914820'
@@ -7393,16 +7839,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %> -->
     6: 	<%= f.text_area :content, :class => "tinymce" %>
     7: 	<%= tinymce %>
     8: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228642705960'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228642731340'
@@ -7416,16 +7873,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %> -->
     6: 	<%= f.text_area :body, :class => "tinymce" %>
     7: 	<%= tinymce %>
     8: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228638488860'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228638548900'
@@ -7439,16 +7907,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %> -->
     6: 	<%= f.text_area :body %>
     7: 	<%= tinymce %>
     8: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228650268500'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228455119220'
@@ -7462,16 +7941,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %> -->
     6: 	<%= text_area_tag :body, :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<%= tinymce %>
     8: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228462990460'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228463015460'
@@ -7485,16 +7975,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %> -->
     6: 	<%= text_area_tag :body, :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<%= tinymce %>
     8: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228457276220'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228457319960'
@@ -7508,16 +8009,27 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
     3: 
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: 	<p><%= f.label :body %></p>
     5: 	<!-- <%= f.text_area :content, "", :class => "tinymce", :rows => 10, :cols => 40 %> -->
     6: 	<%= text_area_tag :body,"", :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<%= tinymce %>
     8: 	<!-- <%= f.text_area :body, cols: 40,rows: 10 %><br/> -->
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__3272937417315071649_70228642258400'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228642308600'
@@ -7531,7 +8043,11 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `content' for #<Post:0x007fbec1f464b0>
 Did you mean?  concern):
     4: 	<p><%= f.label :body %></p>
@@ -7539,9 +8055,15 @@ Did you mean?  concern):
     6: 	<%= text_area_tag :content, "", :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<!-- <%= f.text_area :content, :class => "tinymce", :rows => 40, :cols => 120 %> -->
     8: 	<%= tinymce %>
+<<<<<<< HEAD
     9: 
    10: 
   
+=======
+    9:
+   10:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):6:in `text_area'
 app/views/posts/_form.html.erb:7:in `_app_views_posts__form_html_erb__3272937417315071649_70228637159780'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228637263540'
@@ -7555,7 +8077,11 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `content' for #<Post:0x007fbeac0f5358>
 Did you mean?  concern):
     4: 	<p><%= f.label :body %></p>
@@ -7563,9 +8089,15 @@ Did you mean?  concern):
     6: 	<%= text_area_tag :body, "", :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<!-- <%= f.text_area :content, :class => "tinymce", :rows => 40, :cols => 120 %> -->
     8: 	<%= tinymce %>
+<<<<<<< HEAD
     9: 
    10: 
   
+=======
+    9:
+   10:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):6:in `text_area'
 app/views/posts/_form.html.erb:7:in `_app_views_posts__form_html_erb__3272937417315071649_70228453545460'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2144111558030299798_70228453588500'
@@ -7580,7 +8112,11 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 99ms (ActiveRecord: 2.4ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `content' for #<Post:0x000000048c32d8>
 Did you mean?  concern):
     4: 	<p><%= f.label :body %></p>
@@ -7588,9 +8124,15 @@ Did you mean?  concern):
     6: 	<%= text_area_tag :body, "", :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<!-- <%= f.text_area :content, :class => "tinymce", :rows => 40, :cols => 120 %> -->
     8: 	<%= tinymce %>
+<<<<<<< HEAD
     9: 
    10: 
   
+=======
+    9:
+   10:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):6:in `text_area'
 app/views/posts/_form.html.erb:7:in `_app_views_posts__form_html_erb__657471986544201551_35562680'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___1198706471974933505_36704620'
@@ -7604,7 +8146,11 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `content' for #<Post:0x00000005864160>
 Did you mean?  concern):
     4: 	<p><%= f.label :body %></p>
@@ -7612,9 +8158,15 @@ Did you mean?  concern):
     6: 	<%= text_area_tag :body, "", :class => "tinymce", :rows => 40, :cols => 120 %>
     7: 	<!-- <%= f.text_area :content, :class => "tinymce", :rows => 40, :cols => 120 %> -->
     8: 	<%= tinymce %>
+<<<<<<< HEAD
     9: 
    10: 
   
+=======
+    9:
+   10:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):6:in `text_area'
 app/views/posts/_form.html.erb:7:in `_app_views_posts__form_html_erb__657471986544201551_46224540'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___1198706471974933505_46286660'
@@ -7643,9 +8195,15 @@ Completed 200 OK in 271ms (Views: 248.6ms | ActiveRecord: 0.6ms)
 
 
 Started GET "/posts" for 127.0.0.1 at 2017-11-20 12:24:56 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -7736,6 +8294,7 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
@@ -7746,6 +8305,18 @@ ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2))
     7: 
     8: 
   
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+    4: 	<p><%= f.label :body %></p>
+    5: 	<%= f.text_area :body, "", :class => "tinymce", :rows => 40, :cols => 120 %>
+    6: 	<%= tinymce %>
+    7:
+    8:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__657471986544201551_69931943372060'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___1198706471974933505_69931943577060'
@@ -7759,6 +8330,7 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
@@ -7769,6 +8341,18 @@ ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2))
     7: 
     8: 
   
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+    4: 	<p><%= f.label :body %></p>
+    5: 	<%= f.text_area :body, "", :class => "tinymce", :rows => 40, :cols => 120 %>
+    6: 	<%= tinymce %>
+    7:
+    8:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb__657471986544201551_69931945115720'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___1198706471974933505_69931945282000'
@@ -7783,6 +8367,7 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 72ms (ActiveRecord: 2.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
     2: 	<%= f.text_field :title %><br/>
@@ -7793,6 +8378,18 @@ ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2))
     7: 
     8: 
   
+=======
+
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    2: 	<%= f.text_field :title %><br/>
+    3:
+    4: 	<p><%= f.label :body %></p>
+    5: 	<%= f.text_area :body, "", :class => "tinymce", :rows => 40, :cols => 120 %>
+    6: 	<%= tinymce %>
+    7:
+    8:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 (eval):1:in `text_area'
 app/views/posts/_form.html.erb:5:in `_app_views_posts__form_html_erb___4205834581693005256_43946700'
 app/views/posts/new.html.erb:3:in `block in _app_views_posts_new_html_erb___2337950825768349161_70259627077060'
@@ -8063,7 +8660,11 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 297ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `sanitaze' for #<#<Class:0x007ffb93081380>:0x000000061eb850>
 Did you mean?  sanitize):
      7: 		Creeated at:<%= post.created_at %>
@@ -8073,7 +8674,11 @@ Did you mean?  sanitize):
     11: 	<% if current_user != nil and current_user.id == post.user_id %>
     12: 		<%= link_to "Edit", edit_post_path(post.id) %>
     13: 		<%= link_to "Delete", post_path(post.id), data: {confim: 'Are you sure?'}, method: :delete %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:10:in `block in _app_views_pages_index_html_erb___4123281886979375361_51305100'
 app/views/pages/index.html.erb:3:in `_app_views_pages_index_html_erb___4123281886979375361_51305100'
 Started GET "/" for 127.0.0.1 at 2017-11-20 12:43:28 +0200
@@ -8459,9 +9064,15 @@ Completed 200 OK in 241ms (Views: 235.4ms | ActiveRecord: 1.0ms)
 
 Started GET "/routes" for 127.0.0.1 at 2017-11-20 13:13:12 +0200
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/routes"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -8510,14 +9121,22 @@ Processing by PhotosController#index as HTML
 Completed 406 Not Acceptable in 83ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionController::UnknownFormat (PhotosController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
 actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -8663,14 +9282,24 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:3: syntax error, unexpected ';', expecting ':'
 '.freeze; else 
+=======
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:3: syntax error, unexpected ';', expecting ':'
+'.freeze; else
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
          ^
 /home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
           ensure
                 ^):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:3: syntax error, unexpected ';', expecting ':'
 app/views/photos/index.html.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
 Started GET "/photos" for 127.0.0.1 at 2017-11-20 13:20:11 +0200
@@ -8680,14 +9309,24 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:3: syntax error, unexpected ';', expecting ':'
 '.freeze; else 
+=======
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:3: syntax error, unexpected ';', expecting ':'
+'.freeze; else
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
          ^
 /home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
           ensure
                 ^):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:3: syntax error, unexpected ';', expecting ':'
 app/views/photos/index.html.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
 Started GET "/photos" for 127.0.0.1 at 2017-11-20 13:20:18 +0200
@@ -8724,14 +9363,22 @@ Processing by PhotosController#new as HTML
 Completed 406 Not Acceptable in 69ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionController::UnknownFormat (PhotosController#new is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
 actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -8958,6 +9605,7 @@ Processing by PhotosController#new as HTML
 Completed 500 Internal Server Error in 638ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x007fcb2c9e9540>:0x007fcb2f509798>
 Did you mean?  fork):
@@ -8969,6 +9617,19 @@ Did you mean?  fork):
     7: 
     8: <p><%= f.submit "Save" %></p>
   
+=======
+
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x007fcb2c9e9540>:0x007fcb2f509798>
+Did you mean?  fork):
+    2: <%= f.text_field :name %><br/>
+    3:
+    4: <p><%= f.label :photo %></p>
+    5: <%= form.file_field :photo %>
+    6:
+    7:
+    8: <p><%= f.submit "Save" %></p>
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/_form.html.erb:5:in `_app_views_photos__form_html_erb___2448107424204122602_70255324416480'
 app/views/photos/new.html.erb:3:in `block in _app_views_photos_new_html_erb__352623919631370998_70255324451440'
 app/views/photos/new.html.erb:1:in `_app_views_photos_new_html_erb__352623919631370998_70255324451440'
@@ -9030,9 +9691,15 @@ Processing by ActiveAdmin::Devise::SessionsController#new as HTML
   Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.1/gems/activeadmin-1.1.0/app/views/active_admin/devise/shared/_links.erb (1.6ms)
   Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.1/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (175.5ms)
 Started GET "/registration" for 127.0.0.1 at 2017-11-23 22:56:56 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/registration"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/registration"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -9124,6 +9791,7 @@ Processing by PostsController#edit as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (Using form_for(:name, @resource) is not supported with ClientSideValidations. Please use form_for(@resource, as: :name) instead.):
     1: <%= form_for :post, url: post_path, validate: true, method: :patch do |f|%>
@@ -9131,6 +9799,15 @@ ActionView::Template::Error (Using form_for(:name, @resource) is not supported w
     3: <%= render 'posts/form' , f:f %>
     4: 
   
+=======
+
+ActionView::Template::Error (Using form_for(:name, @resource) is not supported with ClientSideValidations. Please use form_for(@resource, as: :name) instead.):
+    1: <%= form_for :post, url: post_path, validate: true, method: :patch do |f|%>
+    2:
+    3: <%= render 'posts/form' , f:f %>
+    4:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/posts/edit.html.erb:1:in `_app_views_posts_edit_html_erb___1203489841641027793_70159845683060'
 Started GET "/posts/8/edit" for 127.0.0.1 at 2017-11-23 22:58:05 +0200
 Processing by PostsController#edit as HTML
@@ -9255,9 +9932,15 @@ Can't verify CSRF token authenticity.
 Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   
 ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
   
+=======
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
 actionpack (5.1.4) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
 devise (4.3.0) lib/devise/controllers/helpers.rb:253:in `handle_unverified_request'
@@ -9339,9 +10022,15 @@ Can't verify CSRF token authenticity.
 Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
   
 ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
   
+=======
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
 actionpack (5.1.4) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
 devise (4.3.0) lib/devise/controllers/helpers.rb:253:in `handle_unverified_request'
@@ -9493,7 +10182,11 @@ Completed 200 OK in 237ms (Views: 229.4ms | ActiveRecord: 1.2ms)
 
 Started GET "/admin/users" for 127.0.0.1 at 2017-11-25 18:49:03 +0200
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActiveRecord::PendingMigrationError (
 
 Migrations are pending. To resolve this issue, run:
@@ -9501,7 +10194,11 @@ Migrations are pending. To resolve this issue, run:
         bin/rails db:migrate RAILS_ENV=development
 
 ):
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
 activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
 actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
@@ -9682,9 +10379,15 @@ Completed 204 No Content in 78ms (ActiveRecord: 0.0ms)
 
 
 Started GET "/posts" for 127.0.0.1 at 2017-11-27 12:38:00 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -10005,7 +10708,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 315ms (ActiveRecord: 0.8ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `img_tag' for #<#<Class:0x007f41c82987e8>:0x007f41b918d5d8>
 Did you mean?  time_tag
                image_tag):
@@ -10016,7 +10723,11 @@ Did you mean?  time_tag
     13:     <%= photo.name %>
     14:   <% end %>
     15: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960127530120'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_69960127530120'
 Started GET "/admin/users" for 127.0.0.1 at 2017-11-27 12:42:07 +0200
@@ -10062,7 +10773,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.7ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (The asset "" is not present in the asset pipeline.):
      9:   Photos ninch
     10: <% else %>
@@ -10071,7 +10786,11 @@ ActionView::Template::Error (The asset "" is not present in the asset pipeline.)
     13:     <%= photo.name %>
     14:   <% end %>
     15: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960125978780'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_69960125978780'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 12:42:35 +0200
@@ -10084,7 +10803,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 304ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `img_tag' for #<#<Class:0x007f41c82987e8>:0x007f41c81e4e28>
 Did you mean?  time_tag
                image_tag):
@@ -10095,7 +10818,11 @@ Did you mean?  time_tag
     13:     <%= photo.name %>
     14:   <% end %>
     15: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960253516800'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_69960253516800'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 12:42:41 +0200
@@ -10108,7 +10835,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.8ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (The asset "" is not present in the asset pipeline.):
      9:   Photos ninch
     10: <% else %>
@@ -10117,7 +10848,11 @@ ActionView::Template::Error (The asset "" is not present in the asset pipeline.)
     13:     <%= photo.name %>
     14:   <% end %>
     15: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960142072560'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_69960142072560'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 12:43:18 +0200
@@ -10130,7 +10865,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `url' for #<Photo:0x007f41c43fc250>):
      9:   Photos ninch
     10: <% else %>
@@ -10139,7 +10878,11 @@ ActionView::Template::Error (undefined method `url' for #<Photo:0x007f41c43fc250
     13:     <%= photo.name %>
     14:   <% end %>
     15: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960254117280'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_69960254117280'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 12:43:59 +0200
@@ -10152,7 +10895,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.1ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (No route matches {:action=>"show", :controller=>"photos"}, missing required keys: [:id]):
      9:   Photos ninch
     10: <% else %>
@@ -10161,7 +10908,11 @@ ActionView::Template::Error (No route matches {:action=>"show", :controller=>"ph
     13:     <%= photo.name %>
     14:   <% end %>
     15: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4561623562788007857_48470120'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_48470120'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 12:44:41 +0200
@@ -10174,7 +10925,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 51ms (ActiveRecord: 3.4ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (No route matches {:action=>"show", :controller=>"photos"}, missing required keys: [:id]):
      9:   Photos ninch
     10: <% else %>
@@ -10183,7 +10938,11 @@ ActionView::Template::Error (No route matches {:action=>"show", :controller=>"ph
     13:     <%= photo.name %>
     14:   <% end %>
     15: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960149978640'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_69960149978640'
 Started POST "/photos" for 127.0.0.1 at 2017-11-27 12:44:44 +0200
@@ -10209,7 +10968,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.8ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (No route matches {:action=>"show", :controller=>"photos"}, missing required keys: [:id]):
      9:   Photos ninch
     10: <% else %>
@@ -10218,7 +10981,11 @@ ActionView::Template::Error (No route matches {:action=>"show", :controller=>"ph
     13:     <%= photo.name %>
     14:   <% end %>
     15: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960290275280'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_69960290275280'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 12:45:08 +0200
@@ -10299,7 +11066,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 68ms (ActiveRecord: 3.9ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `name' for #<User:0x007f41b8f89b38>):
     15:     <br/>
     16:     <% photo.category.name %>
@@ -10308,7 +11079,11 @@ ActionView::Template::Error (undefined method `name' for #<User:0x007f41b8f89b38
     19:     <br/>
     20:   <% end %>
     21: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:18:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960132854700'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4561623562788007857_69960132854700'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 12:51:42 +0200
@@ -10355,11 +11130,19 @@ Completed 200 OK in 247ms (Views: 243.0ms | ActiveRecord: 1.3ms)
 
 
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 12:58:49 +0200
+<<<<<<< HEAD
   
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/models/user.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
  has_many :photos, dependent :destroy
                               ^):
   
+=======
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/models/user.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+ has_many :photos, dependent :destroy
+                              ^):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/models/user.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
 config/routes.rb:6:in `block in <top (required)>'
 config/routes.rb:1:in `<top (required)>'
@@ -10379,9 +11162,15 @@ Completed 200 OK in 288ms (Views: 253.0ms | ActiveRecord: 5.4ms)
 
 
 Started GET "/routes" for 127.0.0.1 at 2017-11-27 12:59:55 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/routes"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -10417,11 +11206,19 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:7: syntax error, unexpected keyword_class, expecting ')'
 to_path, method: :delete class: "btn btn-default" );@output_
                               ^):
   
+=======
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:7: syntax error, unexpected keyword_class, expecting ')'
+to_path, method: :delete class: "btn btn-default" );@output_
+                              ^):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:7: syntax error, unexpected keyword_class, expecting ')'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 13:03:07 +0200
 Processing by PhotosController#index as HTML
@@ -10431,11 +11228,19 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:7: syntax error, unexpected keyword_class, expecting ')'
 to_path, method: :delete class: "btn btn-default" );@output_
                               ^):
   
+=======
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:7: syntax error, unexpected keyword_class, expecting ')'
+to_path, method: :delete class: "btn btn-default" );@output_
+                              ^):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:7: syntax error, unexpected keyword_class, expecting ')'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 13:03:21 +0200
 Processing by PhotosController#index as HTML
@@ -10449,7 +11254,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 15ms (ActiveRecord: 1.1ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"photos"}, missing required keys: [:id]):
     19:     <br/>
     20:     <%= photo.user.nickname %>
@@ -10458,7 +11267,11 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"ph
     23:     <br/>
     24:   <% end %>
     25: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:22:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960221038300'
 app/views/photos/index.html.erb:13:in `_app_views_photos_index_html_erb__4561623562788007857_69960221038300'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 13:07:15 +0200
@@ -10473,7 +11286,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 62ms (ActiveRecord: 4.1ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"photos"}, missing required keys: [:id]):
     19:     <br/>
     20:     <%= photo.user.nickname %>
@@ -10482,7 +11299,11 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"ph
     23:     <br/>
     24:   <% end %>
     25: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:22:in `block in _app_views_photos_index_html_erb__4561623562788007857_69960320429660'
 app/views/photos/index.html.erb:13:in `_app_views_photos_index_html_erb__4561623562788007857_69960320429660'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 13:12:06 +0200
@@ -10498,7 +11319,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 150ms (ActiveRecord: 4.7ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"photos"}, missing required keys: [:id]):
     19:     <br/>
     20:     <%= photo.user.nickname %>
@@ -10507,7 +11332,11 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"ph
     23:     <br/>
     24:   <% end %>
     25: <% end %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:22:in `block in _app_views_photos_index_html_erb__2633138526525002709_70350592840360'
 app/views/photos/index.html.erb:13:in `_app_views_photos_index_html_erb__2633138526525002709_70350592840360'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 13:14:17 +0200
@@ -10539,9 +11368,15 @@ Completed 200 OK in 738ms (Views: 287.1ms | ActiveRecord: 0.8ms)
 
 
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:14:31 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -10570,9 +11405,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:14:37 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -10746,9 +11587,15 @@ Completed 200 OK in 226ms (Views: 221.0ms | ActiveRecord: 0.7ms)
 
 
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:16:11 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -10777,9 +11624,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:16:23 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -10808,9 +11661,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:16:33 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -10839,9 +11698,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/photos/idex" for 127.0.0.1 at 2017-11-27 13:16:51 +0200
+<<<<<<< HEAD
   
 AbstractController::ActionNotFound (The action 'show' could not be found for PhotosController):
   
+=======
+
+AbstractController::ActionNotFound (The action 'show' could not be found for PhotosController):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
 actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
@@ -10933,9 +11798,15 @@ Completed 200 OK in 221ms (Views: 215.9ms | ActiveRecord: 0.8ms)
 
 
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:17:41 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -10990,9 +11861,15 @@ Completed 200 OK in 224ms (Views: 217.1ms | ActiveRecord: 0.8ms)
 
 
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:17:53 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11034,9 +11911,15 @@ Completed 200 OK in 245ms (Views: 241.0ms | ActiveRecord: 1.4ms)
 
 
 Started GET "/routes" for 127.0.0.1 at 2017-11-27 13:18:01 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/routes"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11072,11 +11955,19 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.7ms)
 
 
+<<<<<<< HEAD
   
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:20: syntax error, unexpected keyword_class, expecting ')'
 hoto.id), method: :patch class: "btn btn-default" );@output_
                               ^):
   
+=======
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:20: syntax error, unexpected keyword_class, expecting ')'
+hoto.id), method: :patch class: "btn btn-default" );@output_
+                              ^):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:20: syntax error, unexpected keyword_class, expecting ')'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 13:24:12 +0200
 Processing by PhotosController#index as HTML
@@ -11086,11 +11977,19 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:20: syntax error, unexpected keyword_class, expecting ')'
 hoto.id), method: :patch class: "btn btn-default" );@output_
                               ^):
   
+=======
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/views/photos/index.html.erb:20: syntax error, unexpected keyword_class, expecting ')'
+hoto.id), method: :patch class: "btn btn-default" );@output_
+                              ^):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:20: syntax error, unexpected keyword_class, expecting ')'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 13:26:03 +0200
 Processing by PhotosController#index as HTML
@@ -11106,9 +12005,15 @@ Completed 200 OK in 211ms (Views: 207.5ms | ActiveRecord: 1.3ms)
 
 
 Started PATCH "/photos/2/edit" for 127.0.0.1 at 2017-11-27 13:26:06 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11137,9 +12042,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos/2/edit" for 127.0.0.1 at 2017-11-27 13:26:21 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11168,9 +12079,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos/2/edit" for 127.0.0.1 at 2017-11-27 13:26:25 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11199,9 +12116,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos/2/edit" for 127.0.0.1 at 2017-11-27 13:26:47 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11230,9 +12153,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos/2/edit" for 127.0.0.1 at 2017-11-27 13:27:23 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos/2/edit"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11287,9 +12216,15 @@ Completed 200 OK in 231ms (Views: 226.1ms | ActiveRecord: 0.8ms)
 
 
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:27:33 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11318,9 +12253,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:28:28 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11375,9 +12316,15 @@ Completed 200 OK in 224ms (Views: 220.3ms | ActiveRecord: 0.8ms)
 
 
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:28:49 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11432,9 +12379,15 @@ Completed 200 OK in 206ms (Views: 202.8ms | ActiveRecord: 0.6ms)
 
 
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:30:10 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11463,9 +12416,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started PATCH "/photos" for 127.0.0.1 at 2017-11-27 13:31:03 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [PATCH] "/photos"):
   
+=======
+
+ActionController::RoutingError (No route matches [PATCH] "/photos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11516,15 +12475,26 @@ Processing by PhotosController#edit as HTML
 Completed 500 Internal Server Error in 570ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined local variable or method `new_photos_path' for #<#<Class:0x00000004bf3958>:0x007ff78c5458b8>
 Did you mean?  new_photo_path
                new_post_path):
     1: <%= form_for @photo, url: new_photos_path do |f|%>
+<<<<<<< HEAD
     2: 
     3: <%= render 'photos/form' , f:f %>
     4: 
   
+=======
+    2:
+    3: <%= render 'photos/form' , f:f %>
+    4:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/edit.html.erb:1:in `_app_views_photos_edit_html_erb___146464798450085877_70350594015880'
 Started GET "/photos/2/edit" for 127.0.0.1 at 2017-11-27 13:31:16 +0200
 Processing by PhotosController#edit as HTML
@@ -11547,9 +12517,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 8ms (ActiveRecord: 0.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started GET "/" for 127.0.0.1 at 2017-11-27 16:40:32 +0200
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -11665,9 +12641,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:42:59 +0200
 Processing by PhotosController#update as HTML
@@ -11677,9 +12659,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 35ms (ActiveRecord: 3.3ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:43:44 +0200
 Processing by PhotosController#update as HTML
@@ -11689,9 +12677,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:44:23 +0200
 Processing by PhotosController#update as HTML
@@ -11701,9 +12695,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 3ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started DELETE "/photos/4" for 127.0.0.1 at 2017-11-27 16:45:00 +0200
 Processing by PhotosController#destroy as HTML
@@ -11764,9 +12764,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 8ms (ActiveRecord: 0.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:47:33 +0200
 Processing by PhotosController#update as HTML
@@ -11775,11 +12781,19 @@ Processing by PhotosController#update as HTML
 Completed 500 Internal Server Error in 54ms (ActiveRecord: 2.1ms)
 
 
+<<<<<<< HEAD
   
 NoMethodError (undefined method `photo' for #<User:0x00000005b94510>
 Did you mean?  photos
                photos=):
   
+=======
+
+NoMethodError (undefined method `photo' for #<User:0x00000005b94510>
+Did you mean?  photos
+               photos=):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:47:39 +0200
 Processing by PhotosController#update as HTML
@@ -11789,9 +12803,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 68ms (ActiveRecord: 5.2ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:47:44 +0200
 Processing by PhotosController#update as HTML
@@ -11801,9 +12821,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 7ms (ActiveRecord: 0.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:40:in `photo_set'
 Started GET "/photos/2/edit" for 127.0.0.1 at 2017-11-27 16:48:24 +0200
 Processing by PhotosController#edit as HTML
@@ -11826,9 +12852,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 8ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:49:06 +0200
 Processing by PhotosController#update as HTML
@@ -11838,9 +12870,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 38ms (ActiveRecord: 3.7ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:49:36 +0200
 Processing by PhotosController#update as HTML
@@ -11850,9 +12888,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 34ms (ActiveRecord: 3.0ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:50:09 +0200
 Processing by PhotosController#update as HTML
@@ -11862,9 +12906,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 35ms (ActiveRecord: 2.8ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 16:50:14 +0200
 Processing by PhotosController#index as HTML
@@ -11939,9 +12989,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 33ms (ActiveRecord: 2.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:52:51 +0200
 Processing by PhotosController#update as HTML
@@ -11951,9 +13007,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 33ms (ActiveRecord: 2.9ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:54:26 +0200
 Processing by PhotosController#update as HTML
@@ -11963,9 +13025,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 64ms (ActiveRecord: 9.8ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:54:30 +0200
 Processing by PhotosController#update as HTML
@@ -11975,9 +13043,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 4ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:55:48 +0200
 Processing by PhotosController#update as HTML
@@ -11987,9 +13061,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 3ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:56:01 +0200
 Processing by PhotosController#update as HTML
@@ -11999,9 +13079,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 3ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 16:57:43 +0200
 Processing by PhotosController#update as HTML
@@ -12011,9 +13097,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 45ms (ActiveRecord: 3.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started DELETE "/photos/5" for 127.0.0.1 at 2017-11-27 16:57:48 +0200
 Processing by PhotosController#destroy as HTML
@@ -12039,7 +13131,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 30ms (ActiveRecord: 3.2ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"photos"}, missing required keys: [:id]):
     17:     <br/>
     18:     <%= photo.user.nickname %>
@@ -12048,7 +13144,11 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"ph
     21:     <br/>
     22:     <%= link_to "Delete photo", photo_path(photo.id), method: :delete, class: "btn btn-default" %>
     23:     <br/>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:20:in `block in _app_views_photos_index_html_erb___751953327963289620_69834892361280'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb___751953327963289620_69834892361280'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 16:57:59 +0200
@@ -12124,9 +13224,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 11ms (ActiveRecord: 2.8ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 17:00:10 +0200
 Processing by PhotosController#update as HTML
@@ -12136,9 +13242,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 38ms (ActiveRecord: 2.9ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 17:02:06 +0200
 Processing by PhotosController#index as HTML
@@ -12176,9 +13288,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 8ms (ActiveRecord: 1.7ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 17:04:01 +0200
 Processing by PhotosController#update as HTML
@@ -12188,9 +13306,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 9ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started GET "/photos/6/edit" for 127.0.0.1 at 2017-11-27 17:04:03 +0200
 Processing by PhotosController#edit as HTML
@@ -12213,9 +13337,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 5ms (ActiveRecord: 0.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started GET "/photos/6/edit" for 127.0.0.1 at 2017-11-27 17:04:44 +0200
 Processing by PhotosController#edit as HTML
@@ -12251,9 +13381,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 9ms (ActiveRecord: 1.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 17:06:47 +0200
 Processing by PhotosController#update as HTML
@@ -12263,9 +13399,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 38ms (ActiveRecord: 3.4ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:45:in `photo_set'
 Started GET "/photos/6/edit" for 127.0.0.1 at 2017-11-27 17:06:49 +0200
 Processing by PhotosController#edit as HTML
@@ -12301,9 +13443,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 7ms (ActiveRecord: 0.8ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started GET "/photos/6/edit" for 127.0.0.1 at 2017-11-27 17:08:24 +0200
 Processing by PhotosController#edit as HTML
@@ -12325,9 +13473,15 @@ Processing by PhotosController#update as HTML
 Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
 NoMethodError (undefined method `user_id' for nil:NilClass):
   
+=======
+
+NoMethodError (undefined method `user_id' for nil:NilClass):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:24:in `update'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 17:08:40 +0200
 Processing by PhotosController#update as HTML
@@ -12337,9 +13491,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 39ms (ActiveRecord: 3.2ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 17:08:59 +0200
 Processing by PhotosController#update as HTML
@@ -12349,9 +13509,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 53ms (ActiveRecord: 3.3ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 17:09:02 +0200
 Processing by PhotosController#update as HTML
@@ -12361,9 +13527,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 5ms (ActiveRecord: 0.7ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PATCH "/photos/new" for 127.0.0.1 at 2017-11-27 17:09:06 +0200
 Processing by PhotosController#update as HTML
@@ -12373,9 +13545,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 6ms (ActiveRecord: 0.6ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started GET "/photos/" for 127.0.0.1 at 2017-11-27 17:09:10 +0200
 Processing by PhotosController#index as HTML
@@ -12413,9 +13591,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 7ms (ActiveRecord: 0.7ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started GET "/photos/" for 127.0.0.1 at 2017-11-27 17:09:24 +0200
 Processing by PhotosController#index as HTML
@@ -12468,9 +13652,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 9ms (ActiveRecord: 0.8ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started PUT "/__web_console/repl_sessions/f39364b926f3ce07ea435fda3304925b" for 127.0.0.1 at 2017-11-27 17:11:39 +0200
 Started GET "/photos/6/edit" for 127.0.0.1 at 2017-11-27 17:11:42 +0200
@@ -12494,9 +13684,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 9ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new [WHERE "photos"."user_id" = ?]):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started GET "/" for 127.0.0.1 at 2017-11-27 17:24:13 +0200
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -12550,7 +13746,11 @@ Processing by PhotosController#create as HTML
   [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35mSQL (2.7ms)[0m  [1m[32mINSERT INTO "photos" ("name", "user_id", "category_id", "created_at", "updated_at", "photo") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "ttt"], ["user_id", 9], ["category_id", 1], ["created_at", "2017-11-27 15:24:29.753648"], ["updated_at", "2017-11-27 15:24:29.753648"], ["photo", "Screenshot_from_2017-11-01_10-27-15.png"]]
   [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "photos" SET "photo" = '---
+<<<<<<< HEAD
 :default: 
+=======
+:default:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ' WHERE "photos"."id" = ?[0m  [["id", 7]]
   [1m[35m (139.1ms)[0m  [1m[36mcommit transaction[0m
 Redirected to http://localhost:3000/photos
@@ -12575,9 +13775,15 @@ Completed 200 OK in 286ms (Views: 281.4ms | ActiveRecord: 1.7ms)
 
 
 Started GET "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-27 17:24:30 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -12606,9 +13812,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-27 17:24:32 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -12686,9 +13898,15 @@ Completed 200 OK in 278ms (Views: 271.8ms | ActiveRecord: 1.8ms)
 
 
 Started GET "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-27 17:26:17 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/7/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -12763,7 +13981,11 @@ Processing by PhotosController#create as HTML
   [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35mSQL (5.7ms)[0m  [1m[32mINSERT INTO "photos" ("name", "user_id", "category_id", "created_at", "updated_at", "photo") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "ttttt"], ["user_id", 9], ["category_id", 1], ["created_at", "2017-11-27 15:26:33.300140"], ["updated_at", "2017-11-27 15:26:33.300140"], ["photo", "photo_2017-11-12_14-47-57.jpg"]]
   [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "photos" SET "photo" = '---
+<<<<<<< HEAD
 :default: 
+=======
+:default:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ' WHERE "photos"."id" = ?[0m  [["id", 8]]
   [1m[35m (232.0ms)[0m  [1m[36mcommit transaction[0m
 Redirected to http://localhost:3000/photos
@@ -12788,9 +14010,15 @@ Completed 200 OK in 312ms (Views: 308.2ms | ActiveRecord: 1.4ms)
 
 
 Started GET "/uploads/photo/photo/8/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-27 17:26:34 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/8/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/8/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -12819,9 +14047,15 @@ puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/uploads/photo/photo/8/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-27 17:26:35 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/8/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/8/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -12967,10 +14201,17 @@ Processing by PhotosController#create as HTML
 Completed 500 Internal Server Error in 785ms (ActiveRecord: 56.0ms)
 
 
+<<<<<<< HEAD
   
 GoogleDrive::AuthenticationError (Authentication failed for google_account@gmail.com: Response code 404 for post https://www.google.com/accounts/ClientLogin: https://developers.google.com/accounts/docs/AuthForInstalledApps
 ):
   
+=======
+
+GoogleDrive::AuthenticationError (Authentication failed for google_account@gmail.com: Response code 404 for post https://www.google.com/accounts/ClientLogin: https://developers.google.com/accounts/docs/AuthForInstalledApps
+):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:16:in `create'
 Started POST "/photos" for 127.0.0.1 at 2017-11-27 17:38:36 +0200
 Processing by PhotosController#create as HTML
@@ -12984,10 +14225,17 @@ Processing by PhotosController#create as HTML
 Completed 500 Internal Server Error in 280ms (ActiveRecord: 6.2ms)
 
 
+<<<<<<< HEAD
   
 GoogleDrive::AuthenticationError (Authentication failed for theblackarrovv@gmail.com: Response code 404 for post https://www.google.com/accounts/ClientLogin: https://developers.google.com/accounts/docs/AuthForInstalledApps
 ):
   
+=======
+
+GoogleDrive::AuthenticationError (Authentication failed for theblackarrovv@gmail.com: Response code 404 for post https://www.google.com/accounts/ClientLogin: https://developers.google.com/accounts/docs/AuthForInstalledApps
+):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:16:in `create'
 Started GET "/photos" for 127.0.0.1 at 2017-11-27 20:58:28 +0200
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -13026,9 +14274,15 @@ Processing by PhotosController#update as HTML
 Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=new):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started GET "/photos/6/edit" for 127.0.0.1 at 2017-11-27 21:01:01 +0200
 Processing by PhotosController#edit as HTML
@@ -13038,9 +14292,15 @@ Processing by PhotosController#edit as HTML
 Completed 404 Not Found in 34ms (ActiveRecord: 2.9ms)
 
 
+<<<<<<< HEAD
   
 ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=):
   
+=======
+
+ActiveRecord::RecordNotFound (Couldn't find Photo with 'id'=):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/controllers/photos_controller.rb:42:in `photo_set'
 Started GET "/photos/6/edit" for 127.0.0.1 at 2017-11-27 21:06:06 +0200
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -13087,9 +14347,15 @@ Completed 200 OK in 309ms (Views: 268.5ms | ActiveRecord: 2.8ms)
 
 
 Started GET "/phootos" for 127.0.0.1 at 2017-11-27 21:06:23 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/phootos"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/phootos"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -13142,16 +14408,26 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 205ms (ActiveRecord: 2.5ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (key not found: :access_token):
     3: 
+=======
+
+ActionView::Template::Error (key not found: :access_token):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___3274597245627257437_70298046193280'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___3274597245627257437_70298046193280'
 Started GET "/" for 127.0.0.1 at 2017-11-30 22:25:40 +0200
@@ -13164,16 +14440,26 @@ Google::APIClient - Initializing client with options {:application_name=>"ppc-gd
 Completed 500 Internal Server Error in 298ms (ActiveRecord: 0.6ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
     3: 
+=======
+
+ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___3274597245627257437_70297910855640'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___3274597245627257437_70297910855640'
 Started GET "/" for 127.0.0.1 at 2017-11-30 22:25:55 +0200
@@ -13187,15 +14473,22 @@ Google::APIClient - Initializing client with options {:application_name=>"ppc-gd
 Completed 500 Internal Server Error in 262ms (ActiveRecord: 2.7ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
     3: 
+=======
+
+ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb__2905073190821582152_44458340'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb__2905073190821582152_44458340'
@@ -13205,6 +14498,17 @@ SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/models/user.rb:15:
 ates_attachment_content_type :avatar, content_type: /\Aimage
                               ^):
   
+=======
+
+app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb__2905073190821582152_44458340'
+app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb__2905073190821582152_44458340'
+Started GET "/" for 127.0.0.1 at 2017-11-30 22:26:30 +0200
+
+SyntaxError (/home/theblackarrow/Desktop/RubyOnRails/blog/app/models/user.rb:15: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+ates_attachment_content_type :avatar, content_type: /\Aimage
+                              ^):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/models/user.rb:15: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
 config/routes.rb:6:in `block in <top (required)>'
 config/routes.rb:1:in `<top (required)>'
@@ -13627,9 +14931,15 @@ Command :: file -b --mime '/tmp/462bf5408b362bfab7318e8bed7be4fe20171130-5622-11
 Completed 500 Internal Server Error in 1351ms (ActiveRecord: 2.1ms)
 
 
+<<<<<<< HEAD
   
 KeyError (you must set a Public folder if into options):
   
+=======
+
+KeyError (you must set a Public folder if into options):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:214:in `find_public_folder'
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:158:in `search_for_title'
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:192:in `exists?'
@@ -13769,9 +15079,15 @@ Google::APIClient::Request Sending API request get https://www.googleapis.com/dr
 Completed 500 Internal Server Error in 55978ms (ActiveRecord: 4.9ms)
 
 
+<<<<<<< HEAD
   
 Faraday::ConnectionFailed (Failed to open TCP connection to www.googleapis.com:443 (getaddrinfo: Temporary failure in name resolution)):
   
+=======
+
+Faraday::ConnectionFailed (Failed to open TCP connection to www.googleapis.com:443 (getaddrinfo: Temporary failure in name resolution)):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/net/http.rb:906:in `rescue in block in connect'
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/net/http.rb:903:in `block in connect'
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
@@ -13979,9 +15295,15 @@ Attempting refresh of access token & retry of request
 Completed 500 Internal Server Error in 25197ms (ActiveRecord: 1.0ms)
 
 
+<<<<<<< HEAD
   
 Faraday::ConnectionFailed (Failed to open TCP connection to accounts.google.com:443 (getaddrinfo: Temporary failure in name resolution)):
   
+=======
+
+Faraday::ConnectionFailed (Failed to open TCP connection to accounts.google.com:443 (getaddrinfo: Temporary failure in name resolution)):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/net/http.rb:906:in `rescue in block in connect'
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/net/http.rb:903:in `block in connect'
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
@@ -14213,9 +15535,15 @@ Google::APIClient::Request Sending API request get https://www.googleapis.com/di
 Completed 500 Internal Server Error in 25153ms (ActiveRecord: 3.3ms)
 
 
+<<<<<<< HEAD
   
 Faraday::ConnectionFailed (Failed to open TCP connection to www.googleapis.com:443 (getaddrinfo: Temporary failure in name resolution)):
   
+=======
+
+Faraday::ConnectionFailed (Failed to open TCP connection to www.googleapis.com:443 (getaddrinfo: Temporary failure in name resolution)):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/net/http.rb:906:in `rescue in block in connect'
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/net/http.rb:903:in `block in connect'
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
@@ -14555,16 +15883,26 @@ Attempting refresh of access token & retry of request
 Completed 500 Internal Server Error in 828ms (ActiveRecord: 0.7ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
     3: 
+=======
+
+ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___85063198894520764_69980929368560'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___85063198894520764_69980929368560'
 Started GET "/posts/new" for 127.0.0.1 at 2017-11-30 22:37:24 +0200
@@ -14607,16 +15945,26 @@ Attempting refresh of access token & retry of request
 Completed 500 Internal Server Error in 5864ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
     3: 
+=======
+
+ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___85063198894520764_69980884106500'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___85063198894520764_69980884106500'
 Started GET "/admin/users" for 127.0.0.1 at 2017-11-30 22:38:05 +0200
@@ -14672,9 +16020,15 @@ Google::APIClient::Request Sending API request get https://www.googleapis.com/di
 Completed 500 Internal Server Error in 20032ms (ActiveRecord: 1.2ms)
 
 
+<<<<<<< HEAD
   
 Faraday::ConnectionFailed (Failed to open TCP connection to www.googleapis.com:443 (getaddrinfo: Temporary failure in name resolution)):
   
+=======
+
+Faraday::ConnectionFailed (Failed to open TCP connection to www.googleapis.com:443 (getaddrinfo: Temporary failure in name resolution)):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/net/http.rb:906:in `rescue in block in connect'
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/net/http.rb:903:in `block in connect'
 /home/theblackarrow/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
@@ -14847,16 +16201,26 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.6ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `avatar' for nil:NilClass):
     3: 
+=======
+
+ActionView::Template::Error (undefined method `avatar' for nil:NilClass):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___85063198894520764_69980877891860'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___85063198894520764_69980877891860'
 Started GET "/" for 127.0.0.1 at 2017-11-30 22:38:57 +0200
@@ -14868,16 +16232,26 @@ Processing by PagesController#index as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (undefined method `avatar' for nil:NilClass):
     3: 
+=======
+
+ActionView::Template::Error (undefined method `avatar' for nil:NilClass):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___85063198894520764_69980788971260'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___85063198894520764_69980788971260'
 Started GET "/admin/posts" for 127.0.0.1 at 2017-11-30 22:39:03 +0200
@@ -15031,16 +16405,26 @@ Attempting refresh of access token & retry of request
 Completed 500 Internal Server Error in 804ms (ActiveRecord: 0.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
     3: 
+=======
+
+ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___85063198894520764_69980788962720'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___85063198894520764_69980788962720'
 Started GET "/" for 127.0.0.1 at 2017-11-30 22:45:14 +0200
@@ -15063,16 +16447,26 @@ Attempting refresh of access token & retry of request
 Completed 500 Internal Server Error in 1265ms (ActiveRecord: 3.4ms)
 
 
+<<<<<<< HEAD
   
 ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
     3: 
+=======
+
+ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
+    3:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
     4: <% @posts.each do |post| %>
     5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
     6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
     7: 		Autor:<%= post.user.nickname %> |
     8: 		Creeated at:<%= post.created_at %>
     9: 		Update at:<%= post.updated_at %>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb__1429585002643135688_38993120'
 app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb__1429585002643135688_38993120'
 Started GET "/admin/posts" for 127.0.0.1 at 2017-11-30 22:45:20 +0200
@@ -15504,9 +16898,15 @@ Can't verify CSRF token authenticity.
 Completed 422 Unprocessable Entity in 4ms (ActiveRecord: 0.5ms)
 
 
+<<<<<<< HEAD
   
 ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
   
+=======
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
 actionpack (5.1.4) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
 devise (4.3.0) lib/devise/controllers/helpers.rb:253:in `handle_unverified_request'
@@ -15590,9 +16990,15 @@ Can't verify CSRF token authenticity.
 Completed 422 Unprocessable Entity in 5ms (ActiveRecord: 0.7ms)
 
 
+<<<<<<< HEAD
   
 ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
   
+=======
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
 actionpack (5.1.4) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
 devise (4.3.0) lib/devise/controllers/helpers.rb:253:in `handle_unverified_request'
@@ -15770,9 +17176,15 @@ Processing by Admin::UsersController#batch_action as HTML
 Completed 500 Internal Server Error in 31ms (ActiveRecord: 2.1ms)
 
 
+<<<<<<< HEAD
   
 KeyError (key not found: :refresh_token):
   
+=======
+
+KeyError (key not found: :refresh_token):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:245:in `fetch'
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:245:in `block in assert_required_keys'
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:244:in `each'
@@ -15897,9 +17309,15 @@ Processing by Admin::UsersController#batch_action as HTML
 Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.0ms)
 
 
+<<<<<<< HEAD
   
 KeyError (key not found: :refresh_token):
   
+=======
+
+KeyError (key not found: :refresh_token):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:245:in `fetch'
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:245:in `block in assert_required_keys'
 paperclip-googledrive-new (1.0) lib/paperclip/storage/google_drive.rb:244:in `each'
@@ -16040,9 +17458,15 @@ Completed 200 OK in 932ms (Views: 925.0ms | ActiveRecord: 2.4ms)
 
 
 Started GET "/login" for 127.0.0.1 at 2017-11-30 23:03:14 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/login"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16205,7 +17629,11 @@ Processing by PhotosController#create as HTML
   [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "photos" ("name", "user_id", "category_id", "created_at", "updated_at", "photo") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "asd"], ["user_id", 16], ["category_id", 1], ["created_at", "2017-11-30 21:08:41.589695"], ["updated_at", "2017-11-30 21:08:41.589695"], ["photo", "photo_2017-11-12_14-47-57.jpg"]]
   [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "photos" SET "photo" = '---
+<<<<<<< HEAD
 :default: 
+=======
+:default:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ' WHERE "photos"."id" = ?[0m  [["id", 10]]
   [1m[35m (129.6ms)[0m  [1m[36mcommit transaction[0m
 Redirected to http://localhost:3000/photos
@@ -16226,9 +17654,15 @@ Completed 200 OK in 243ms (Views: 239.3ms | ActiveRecord: 1.0ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:08:42 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16257,9 +17691,15 @@ puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:08:42 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16301,9 +17741,15 @@ Completed 200 OK in 240ms (Views: 234.1ms | ActiveRecord: 2.3ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:09:00 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16341,7 +17787,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 327ms (ActiveRecord: 0.8ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `file_tag' for #<#<Class:0x007fee245b1ef8>:0x007fee26353c68>
 Did you mean?  file_field_tag):
      9:   Photos ninch
@@ -16351,7 +17801,11 @@ Did you mean?  file_field_tag):
     13:     <br />
     14:     <%= photo.name %>
     15:     <br/>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4010945658526213572_70330410009460'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4010945658526213572_70330410009460'
 Started GET "/photos" for 127.0.0.1 at 2017-11-30 23:10:48 +0200
@@ -16381,9 +17835,15 @@ Completed 200 OK in 267ms (Views: 263.3ms | ActiveRecord: 1.2ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:11:00 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16450,9 +17910,15 @@ Completed 200 OK in 229ms (Views: 224.2ms | ActiveRecord: 1.8ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:12:25 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16490,7 +17956,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (The asset "" is not present in the asset pipeline.):
      9:   Photos ninch
     10: <% else %>
@@ -16499,7 +17969,11 @@ ActionView::Template::Error (The asset "" is not present in the asset pipeline.)
     13:     <br />
     14:     <%= photo.name %>
     15:     <br/>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4010945658526213572_70330160789160'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4010945658526213572_70330160789160'
 Started GET "/photos" for 127.0.0.1 at 2017-11-30 23:12:39 +0200
@@ -16516,9 +17990,15 @@ Completed 200 OK in 273ms (Views: 268.9ms | ActiveRecord: 1.1ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:12:40 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16560,9 +18040,15 @@ Completed 200 OK in 242ms (Views: 238.3ms | ActiveRecord: 1.1ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:12:48 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16600,7 +18086,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.1ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (The asset "" is not present in the asset pipeline.):
      9:   Photos ninch
     10: <% else %>
@@ -16609,7 +18099,11 @@ ActionView::Template::Error (The asset "" is not present in the asset pipeline.)
     13:     <br />
     14:     <%= photo.name %>
     15:     <br/>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4010945658526213572_70330404516040'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4010945658526213572_70330404516040'
 Started GET "/photos" for 127.0.0.1 at 2017-11-30 23:14:21 +0200
@@ -16626,9 +18120,15 @@ Completed 200 OK in 250ms (Views: 245.6ms | ActiveRecord: 1.1ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:14:23 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16670,9 +18170,15 @@ Completed 200 OK in 252ms (Views: 247.7ms | ActiveRecord: 1.3ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:15:49 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16727,9 +18233,15 @@ Completed 200 OK in 263ms (Views: 259.4ms | ActiveRecord: 1.2ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:16:20 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16767,7 +18279,11 @@ Processing by PhotosController#index as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.9ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined method `photo_url' for nil:NilClass):
      9:   Photos ninch
     10: <% else %>
@@ -16776,7 +18292,11 @@ ActionView::Template::Error (undefined method `photo_url' for nil:NilClass):
     13:     <br />
     14:     <%= photo.name %>
     15:     <br/>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/index.html.erb:12:in `block in _app_views_photos_index_html_erb__4010945658526213572_70330161146500'
 app/views/photos/index.html.erb:11:in `_app_views_photos_index_html_erb__4010945658526213572_70330161146500'
 Started GET "/photos" for 127.0.0.1 at 2017-11-30 23:17:23 +0200
@@ -16793,9 +18313,15 @@ Completed 200 OK in 355ms (Views: 350.7ms | ActiveRecord: 1.2ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:17:24 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16835,9 +18361,15 @@ Completed 200 OK in 243ms (Views: 238.9ms | ActiveRecord: 0.7ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:20:01 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16874,7 +18406,11 @@ Processing by PhotosController#create as HTML
   [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "photos" ("name", "user_id", "category_id", "created_at", "updated_at", "photo") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "q"], ["user_id", 16], ["category_id", 1], ["created_at", "2017-11-30 21:20:07.649961"], ["updated_at", "2017-11-30 21:20:07.649961"], ["photo", "a0536098413_10.jpg"]]
   [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "photos" SET "photo" = '---
+<<<<<<< HEAD
 :default: 
+=======
+:default:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ' WHERE "photos"."id" = ?[0m  [["id", 11]]
   [1m[35m (126.2ms)[0m  [1m[36mcommit transaction[0m
 Redirected to http://localhost:3000/photos
@@ -16897,10 +18433,17 @@ Completed 200 OK in 250ms (Views: 245.4ms | ActiveRecord: 1.4ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:20:08 +0200
+<<<<<<< HEAD
   
 Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:20:08 +0200
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:20:08 +0200
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16928,9 +18471,15 @@ puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -16972,11 +18521,19 @@ Completed 200 OK in 292ms (Views: 242.9ms | ActiveRecord: 3.7ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:13 +0200
+<<<<<<< HEAD
   
 Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:13 +0200
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
   
+=======
+
+Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:13 +0200
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -17005,7 +18562,11 @@ puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17070,9 +18631,15 @@ Completed 200 OK in 269ms (Views: 264.0ms | ActiveRecord: 1.8ms)
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:25 +0200
 Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:25 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17100,9 +18667,15 @@ puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17142,6 +18715,7 @@ Completed 200 OK in 246ms (Views: 242.4ms | ActiveRecord: 0.6ms)
 
 
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:27 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
   
@@ -17149,6 +18723,15 @@ Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+
+Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:27 +0200
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17212,7 +18795,11 @@ Processing by PhotosController#create as HTML
   [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "photos" ("name", "user_id", "category_id", "created_at", "updated_at", "photo") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "d"], ["user_id", 16], ["category_id", 1], ["created_at", "2017-11-30 21:22:31.965443"], ["updated_at", "2017-11-30 21:22:31.965443"], ["photo", "photo_2017-11-12_14-47-57.jpg"]]
   [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "photos" SET "photo" = '---
+<<<<<<< HEAD
 :default: 
+=======
+:default:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ' WHERE "photos"."id" = ?[0m  [["id", 12]]
   [1m[35m (184.7ms)[0m  [1m[36mcommit transaction[0m
 Redirected to http://localhost:3000/photos
@@ -17239,6 +18826,7 @@ Completed 200 OK in 283ms (Views: 279.4ms | ActiveRecord: 1.3ms)
 Started GET "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:32 +0200
 Started GET "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:32 +0200
 Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:32 +0200
+<<<<<<< HEAD
   
   
   
@@ -17248,6 +18836,17 @@ ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/
   
   
   
+=======
+
+
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/10/---%0A%3Adefault%3A%20%0A"):
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
+
+
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17357,9 +18956,15 @@ Completed 200 OK in 261ms (Views: 257.5ms | ActiveRecord: 1.1ms)
 
 
 Started GET "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:39 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/11/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17388,9 +18993,15 @@ puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:39 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17444,9 +19055,15 @@ Completed 200 OK in 251ms (Views: 245.9ms | ActiveRecord: 1.2ms)
 
 
 Started GET "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:42 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17475,9 +19092,15 @@ puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:22:42 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17519,9 +19142,15 @@ Completed 200 OK in 399ms (Views: 337.7ms | ActiveRecord: 4.3ms)
 
 
 Started GET "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:23:09 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17559,7 +19188,11 @@ Processing by PhotosController#update as HTML
   [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35mSQL (1.7ms)[0m  [1m[33mUPDATE "photos" SET "photo" = ?, "updated_at" = ? WHERE "photos"."id" = ?[0m  [["photo", "photo_2017-11-12_14-47-57.jpg"], ["updated_at", "2017-11-30 21:23:13.811736"], ["id", 12]]
   [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "photos" SET "photo" = '---
+<<<<<<< HEAD
 :default: 
+=======
+:default:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ' WHERE "photos"."id" = ?[0m  [["id", 12]]
   [1m[35m (104.3ms)[0m  [1m[36mcommit transaction[0m
 Redirected to http://localhost:3000/
@@ -17601,9 +19234,15 @@ Completed 200 OK in 239ms (Views: 232.3ms | ActiveRecord: 3.8ms)
 
 
 Started GET "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:23:32 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17643,9 +19282,15 @@ Completed 200 OK in 287ms (Views: 247.6ms | ActiveRecord: 3.4ms)
 
 
 Started GET "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:24:58 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17682,7 +19327,11 @@ Processing by PhotosController#create as HTML
   [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "photos" ("name", "user_id", "category_id", "created_at", "updated_at", "photo") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "j"], ["user_id", 16], ["category_id", 1], ["created_at", "2017-11-30 21:25:03.301134"], ["updated_at", "2017-11-30 21:25:03.301134"], ["photo", "photo_2017-11-12_14-47-57.jpg"]]
   [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "photos" SET "photo" = '---
+<<<<<<< HEAD
 :default: 
+=======
+:default:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ' WHERE "photos"."id" = ?[0m  [["id", 13]]
   [1m[35m (141.1ms)[0m  [1m[36mcommit transaction[0m
 Redirected to http://localhost:3000/photos
@@ -17705,9 +19354,15 @@ Completed 200 OK in 265ms (Views: 260.5ms | ActiveRecord: 1.6ms)
 
 
 Started GET "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:25:04 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/12/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17736,9 +19391,15 @@ puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/uploads/photo/photo/13/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:25:04 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/13/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/13/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17830,15 +19491,26 @@ Processing by PhotosController#new as HTML
 Completed 500 Internal Server Error in 567ms (ActiveRecord: 0.3ms)
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ActionView::Template::Error (undefined local variable or method `new_photos_path' for #<#<Class:0x007fee25f3e6f0>:0x007fee001375b8>
 Did you mean?  new_photo_path
                new_post_path):
     1: <%= form_for @photo, url: new_photos_path do |f|%>
+<<<<<<< HEAD
     2: 
     3: <%= render 'photos/form' , f:f %>
     4: 
   
+=======
+    2:
+    3: <%= render 'photos/form' , f:f %>
+    4:
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 app/views/photos/new.html.erb:1:in `_app_views_photos_new_html_erb___1931696469799699474_70330090144620'
 Started GET "/photos/new" for 127.0.0.1 at 2017-11-30 23:27:24 +0200
 Processing by PhotosController#new as HTML
@@ -17852,9 +19524,15 @@ Completed 200 OK in 440ms (Views: 434.4ms | ActiveRecord: 0.7ms)
 
 
 Started POST "/photos/new" for 127.0.0.1 at 2017-11-30 23:27:30 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [POST] "/photos/new"):
   
+=======
+
+ActionController::RoutingError (No route matches [POST] "/photos/new"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17894,9 +19572,15 @@ Completed 200 OK in 270ms (Views: 266.0ms | ActiveRecord: 0.8ms)
 
 
 Started GET "/routes" for 127.0.0.1 at 2017-11-30 23:27:45 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/routes"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17944,7 +19628,11 @@ Processing by PhotosController#create as HTML
   [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "photos" ("name", "user_id", "category_id", "created_at", "updated_at", "photo") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "j"], ["user_id", 16], ["category_id", 1], ["created_at", "2017-11-30 21:28:51.741756"], ["updated_at", "2017-11-30 21:28:51.741756"], ["photo", "photo_2017-11-12_14-47-57.jpg"]]
   [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "photos" SET "photo" = '---
+<<<<<<< HEAD
 :default: 
+=======
+:default:
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 ' WHERE "photos"."id" = ?[0m  [["id", 14]]
   [1m[35m (159.6ms)[0m  [1m[36mcommit transaction[0m
 Redirected to http://localhost:3000/photos
@@ -17965,9 +19653,15 @@ Completed 200 OK in 232ms (Views: 227.2ms | ActiveRecord: 1.8ms)
 
 
 Started GET "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:28:52 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -17996,9 +19690,15 @@ puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:28:53 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -18067,9 +19767,15 @@ Completed 200 OK in 257ms (Views: 248.9ms | ActiveRecord: 3.0ms)
 
 
 Started GET "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A" for 127.0.0.1 at 2017-11-30 23:44:12 +0200
+<<<<<<< HEAD
   
 ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A"):
   
+=======
+
+ActionController::RoutingError (No route matches [GET] "/uploads/photo/photo/14/---%0A%3Adefault%3A%20%0A"):
+
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
 actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -18168,6 +19874,7 @@ Processing by PhotosController#index as HTML
   Rendered photos/index.html.erb within layouts/application (8.3ms)
   Rendered layouts/_navbar.html.erb (1.6ms)
 Completed 200 OK in 279ms (Views: 272.6ms | ActiveRecord: 1.2ms)
+<<<<<<< HEAD
 
 
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -20872,3 +22579,5 @@ Processing by Admin::VotesController#index as HTML
 Completed 200 OK in 271ms (Views: 235.8ms | ActiveRecord: 3.2ms)
 
 
+=======
+>>>>>>> df42636c40b5e9d81677e53d2aa62d7287317763
