@@ -1,0 +1,9 @@
+	<p><%= f.label :title %></p>
+	<%= f.text_field :title %><br/>
+
+	<p><%= f.label :body %></p>
+	<%= f.text_area :body, :class => "tinymce", :rows => 10, :cols => 40 %>
+	<%= tinymce %>
+
+
+	<p><%= f.submit "Save" %></p>

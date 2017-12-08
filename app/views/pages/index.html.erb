@@ -1,0 +1,16 @@
+<%= link_to "Create New Post", new_post_path , class: "btn btn-default"%>
+<%= link_to "PhotoGalery", photos_path , class: "btn btn-default"%>
+
+<% @posts.each do |post| %>
+	<h1><%= link_to post.title , post_path(post.id)%></h1>
+	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
+		Autor:<%= post.user.nickname %> |
+		Creeated at:<%= post.created_at %>
+		Update at:<%= post.updated_at %>
+	</p>
+	<p><%= sanitize(post.body) %></p>
+	<% if current_user != nil and current_user.id == post.user_id %>
+		<%= link_to "Edit", edit_post_path(post.id) %>
+		<%= link_to "Delete", post_path(post.id), data: {confim: 'Are you sure?'}, method: :delete %>
+	<% end %>
+<% end %>

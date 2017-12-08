@@ -1,0 +1,16 @@
+<%= link_to "upload new photo", new_photo_path, class: "btn btn-default" %>
+<%= link_to "upload multiple photo", new_image_path, class: "btn btn-default" %>
+<br/>
+
+<br />
+
+<% if @images == [] %>
+  Images ninch
+<% else %>
+  <% @images.each do |image| %>
+    <%= image_tag image.image.url, width: 200, height: 300 %>
+    <br />
+    <%= image.user.nickname %>
+    <br/>
+  <% end %>
+<% end %>
