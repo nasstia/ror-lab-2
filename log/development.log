@@ -22354,3 +22354,332 @@ Processing by PhotosController#index as HTML
 Completed 200 OK in 243ms (Views: 222.7ms | ActiveRecord: 6.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-12-08 13:09:58 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+Google::APIClient - Initializing client with options {:application_name=>"ppc-gd", :application_version=>"1.0"}
+Google::APIClient::Request Sending API request get https://www.googleapis.com/discovery/v1/apis/drive/v2/rest {"User-Agent"=>"ppc-gd/1.0 google-api-ruby-client/0.8.6 Linux/4.10.0-32-generic\n (gzip)", "Accept-Encoding"=>"gzip", "Content-Type"=>""}
+Decompressing gzip encoded response (20544 bytes)
+Decompressed (166802 bytes)
+Google::APIClient::Request Result: 200 {"expires"=>"Fri, 08 Dec 2017 11:13:57 GMT", "date"=>"Fri, 08 Dec 2017 11:08:57 GMT", "etag"=>"\"YWOzh2SDasdU84ArJnpYek-OMdg/KbCPmeNRrGGH2LX5ZRXlbh5CVpw\"", "vary"=>"Origin, X-Origin", "content-type"=>"application/json; charset=UTF-8", "x-content-type-options"=>"nosniff", "x-frame-options"=>"SAMEORIGIN", "x-xss-protection"=>"1; mode=block", "content-length"=>"20544", "server"=>"GSE", "age"=>"62", "cache-control"=>"public, max-age=300, must-revalidate, no-transform", "alt-svc"=>"hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"", "connection"=>"close"}
+Google::APIClient::Request Sending API request get https://www.googleapis.com/drive/v2/files/1aPFd6BmO7CAv79NOLu4jyxcnMN73YD48/children?fields=items%2Fid&q=title+contains+%2716_photo_2017-11-12_14-47-57_thumb.jpg%27 {"User-Agent"=>"ppc-gd/1.0 google-api-ruby-client/0.8.6 Linux/4.10.0-32-generic\n (gzip)", "Accept-Encoding"=>"gzip", "Content-Type"=>"", "Authorization"=>"Bearer ya29.GlscBWOJAWPnp29ludsk2TSIngilkzVCtD37vYOVT_H-iJO1tlQZAkrjvuPPIR4kEjuOubGkB201aA2LQYm-hHhCgfEd3ygjVWgGRbWk7yEDqN0QR6vVXYkZ0ggi", "Cache-Control"=>"no-store"}
+Decompressing gzip encoded response (352 bytes)
+Decompressed (964 bytes)
+Google::APIClient::Request Result: 403 {"vary"=>"Origin, X-Origin", "content-type"=>"application/json; charset=UTF-8", "date"=>"Fri, 08 Dec 2017 11:09:59 GMT", "expires"=>"Fri, 08 Dec 2017 11:09:59 GMT", "cache-control"=>"private, max-age=0", "x-content-type-options"=>"nosniff", "x-frame-options"=>"SAMEORIGIN", "x-xss-protection"=>"1; mode=block", "server"=>"GSE", "alt-svc"=>"hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"", "connection"=>"close", "transfer-encoding"=>"chunked"}
+  Rendered pages/index.html.erb within layouts/application (824.4ms)
+Completed 500 Internal Server Error in 857ms (ActiveRecord: 3.9ms)
+
+
+  
+ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
+    3: 
+    4: <% @posts.each do |post| %>
+    5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
+    6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
+    7: 		Autor:<%= post.user.nickname %> |
+    8: 		Creeated at:<%= post.created_at %>
+    9: 		Update at:<%= post.updated_at %>
+  
+app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___1022668511553039326_47034480'
+app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___1022668511553039326_47034480'
+Started GET "/admin" for 127.0.0.1 at 2017-12-08 13:10:10 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb (6943.0ms)
+Completed 200 OK in 6975ms (Views: 6946.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-08 13:10:36 +0200
+Processing by PagesController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+Google::APIClient - Initializing client with options {:application_name=>"ppc-gd", :application_version=>"1.0"}
+Google::APIClient::Request Sending API request get https://www.googleapis.com/discovery/v1/apis/drive/v2/rest {"User-Agent"=>"ppc-gd/1.0 google-api-ruby-client/0.8.6 Linux/4.10.0-32-generic\n (gzip)", "Accept-Encoding"=>"gzip", "Content-Type"=>""}
+Decompressing gzip encoded response (20544 bytes)
+Decompressed (166802 bytes)
+Google::APIClient::Request Result: 200 {"expires"=>"Fri, 08 Dec 2017 11:15:37 GMT", "date"=>"Fri, 08 Dec 2017 11:10:37 GMT", "etag"=>"\"YWOzh2SDasdU84ArJnpYek-OMdg/KbCPmeNRrGGH2LX5ZRXlbh5CVpw\"", "vary"=>"Origin, X-Origin", "content-type"=>"application/json; charset=UTF-8", "x-content-type-options"=>"nosniff", "x-frame-options"=>"SAMEORIGIN", "x-xss-protection"=>"1; mode=block", "content-length"=>"20544", "server"=>"GSE", "cache-control"=>"public, max-age=300, must-revalidate, no-transform", "age"=>"0", "alt-svc"=>"hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"", "connection"=>"close"}
+Google::APIClient::Request Sending API request get https://www.googleapis.com/drive/v2/files/1aPFd6BmO7CAv79NOLu4jyxcnMN73YD48/children?fields=items%2Fid&q=title+contains+%2716_photo_2017-11-12_14-47-57_thumb.jpg%27 {"User-Agent"=>"ppc-gd/1.0 google-api-ruby-client/0.8.6 Linux/4.10.0-32-generic\n (gzip)", "Accept-Encoding"=>"gzip", "Content-Type"=>"", "Authorization"=>"Bearer ya29.GlscBWOJAWPnp29ludsk2TSIngilkzVCtD37vYOVT_H-iJO1tlQZAkrjvuPPIR4kEjuOubGkB201aA2LQYm-hHhCgfEd3ygjVWgGRbWk7yEDqN0QR6vVXYkZ0ggi", "Cache-Control"=>"no-store"}
+Decompressing gzip encoded response (352 bytes)
+Decompressed (964 bytes)
+Google::APIClient::Request Result: 403 {"vary"=>"Origin, X-Origin", "content-type"=>"application/json; charset=UTF-8", "date"=>"Fri, 08 Dec 2017 11:10:37 GMT", "expires"=>"Fri, 08 Dec 2017 11:10:37 GMT", "cache-control"=>"private, max-age=0", "x-content-type-options"=>"nosniff", "x-frame-options"=>"SAMEORIGIN", "x-xss-protection"=>"1; mode=block", "server"=>"GSE", "alt-svc"=>"hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"", "connection"=>"close", "transfer-encoding"=>"chunked"}
+  Rendered pages/index.html.erb within layouts/application (617.7ms)
+Completed 500 Internal Server Error in 636ms (ActiveRecord: 2.3ms)
+
+
+  
+ActionView::Template::Error (The asset "No picture" is not present in the asset pipeline.):
+    3: 
+    4: <% @posts.each do |post| %>
+    5: 	<h1><%= link_to post.title , post_path(post.id)%></h1>
+    6: 	<p>	<%= image_tag post.user.avatar.url(:thumb) %>
+    7: 		Autor:<%= post.user.nickname %> |
+    8: 		Creeated at:<%= post.created_at %>
+    9: 		Update at:<%= post.updated_at %>
+  
+app/views/pages/index.html.erb:6:in `block in _app_views_pages_index_html_erb___1022668511553039326_70039513401740'
+app/views/pages/index.html.erb:4:in `_app_views_pages_index_html_erb___1022668511553039326_70039513401740'
+Started GET "/admin/posts" for 127.0.0.1 at 2017-12-08 13:10:42 +0200
+Processing by Admin::PostsController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM "posts" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM "posts" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM "posts" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mPostcomment Load (0.2ms)[0m  [1m[34mSELECT "postcomments".* FROM "postcomments"[0m
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb (236.9ms)
+Completed 200 OK in 271ms (Views: 246.3ms | ActiveRecord: 2.9ms)
+
+
+Started DELETE "/admin/posts/11" for 127.0.0.1 at 2017-12-08 13:10:49 +0200
+Processing by Admin::PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rp4PUHorInYy40LzL6jxwm1dPiPlk/SkMJE6L6FJZgV3qAWmnhAEdzY/KKj6gKBbXVOswporoTBW+pqqOr1NqA==", "id"=>"11"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 11]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/posts
+Completed 302 Found in 21ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/admin/posts" for 127.0.0.1 at 2017-12-08 13:10:49 +0200
+Processing by Admin::PostsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM "posts" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mPostcomment Load (0.3ms)[0m  [1m[34mSELECT "postcomments".* FROM "postcomments"[0m
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb (221.4ms)
+Completed 200 OK in 228ms (Views: 223.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-08 13:10:51 +0200
+Processing by PagesController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendered layouts/_navbar.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+Completed 200 OK in 702ms (Views: 698.9ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-12-08 13:10:55 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BvwWFO1t2vtq+fHleMa9DC4zfbj1M4za+2dQExdbS0bfyhziCVb8+m4lm76t7uyVHj3vWYqL2U6dDPCWjK9g6w=="}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Google::APIClient - Initializing client with options {:application_name=>"ppc-gd", :application_version=>"1.0"}
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-08 13:10:55 +0200
+Processing by PagesController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navbar.html.erb (5.4ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 178ms (Views: 175.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-12-08 13:10:57 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_navbar.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 207ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-12-08 13:10:59 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+Google::APIClient - Initializing client with options {:application_name=>"ppc-gd", :application_version=>"1.0"}
+  Rendered users/shared/_links.html.erb (1.9ms)
+  Rendered users/registrations/new.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 202ms (Views: 201.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-12-08 13:11:24 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4MNs9d6uLB+hunbsnuTGJUoe5Y5hAXf55Bc0uU4Cy4CKtqfOcyImMlrfLdv3Ue6oLm+YXt6C6lRGG2OluTNraQ==", "user"=>{"nickname"=>"TestTrY", "email"=>"try@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x00007f66afeaee68 @tempfile=#<Tempfile:/tmp/RackMultipart20171208-11317-14dogz.png>, @original_filename="Firefox_wallpaper.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"Firefox_wallpaper.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Sign up"}
+Google::APIClient - Initializing client with options {:application_name=>"ppc-gd", :application_version=>"1.0"}
+Command :: file -b --mime '/tmp/e22ac0429088fa9fb34d34c19272aee620171208-11317-18i0fch.png'
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "try@gmail.com"], ["LIMIT", 1]]
+Command :: file -b --mime '/tmp/e22ac0429088fa9fb34d34c19272aee620171208-11317-1edjmam.png'
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "nickname", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "try@gmail.com"], ["encrypted_password", "$2a$11$Ymu6BDOsJMQU2G.KgOzV0u95o44q1s9w4VK7jcKdl1l6tOM25XOy6"], ["created_at", "2017-12-08 11:11:25.000603"], ["updated_at", "2017-12-08 11:11:25.000603"], ["nickname", "TestTrY"], ["avatar_file_name", "Firefox_wallpaper.png"], ["avatar_content_type", "image/png"], ["avatar_file_size", 2004228], ["avatar_updated_at", "2017-12-08 11:11:24.907466"]]
+Google::APIClient::Request Sending API request get https://www.googleapis.com/discovery/v1/apis/drive/v2/rest {"User-Agent"=>"ppc-gd/1.0 google-api-ruby-client/0.8.6 Linux/4.10.0-32-generic\n (gzip)", "Accept-Encoding"=>"gzip", "Content-Type"=>""}
+Decompressing gzip encoded response (20544 bytes)
+Decompressed (166802 bytes)
+Google::APIClient::Request Result: 200 {"expires"=>"Fri, 08 Dec 2017 11:13:57 GMT", "date"=>"Fri, 08 Dec 2017 11:08:57 GMT", "etag"=>"\"YWOzh2SDasdU84ArJnpYek-OMdg/KbCPmeNRrGGH2LX5ZRXlbh5CVpw\"", "vary"=>"Origin, X-Origin", "content-type"=>"application/json; charset=UTF-8", "x-content-type-options"=>"nosniff", "x-frame-options"=>"SAMEORIGIN", "x-xss-protection"=>"1; mode=block", "content-length"=>"20544", "server"=>"GSE", "age"=>"148", "cache-control"=>"public, max-age=300, must-revalidate, no-transform", "alt-svc"=>"hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"", "connection"=>"close"}
+Google::APIClient::Request Sending API request get https://www.googleapis.com/drive/v2/files/1aPFd6BmO7CAv79NOLu4jyxcnMN73YD48/children?fields=items%2Fid&q=title+contains+%2718_Firefox_wallpaper_18_Firefox_wallpaper.png.png%27 {"User-Agent"=>"ppc-gd/1.0 google-api-ruby-client/0.8.6 Linux/4.10.0-32-generic\n (gzip)", "Accept-Encoding"=>"gzip", "Content-Type"=>"", "Authorization"=>"Bearer ya29.GlscBWOJAWPnp29ludsk2TSIngilkzVCtD37vYOVT_H-iJO1tlQZAkrjvuPPIR4kEjuOubGkB201aA2LQYm-hHhCgfEd3ygjVWgGRbWk7yEDqN0QR6vVXYkZ0ggi", "Cache-Control"=>"no-store"}
+Decompressing gzip encoded response (352 bytes)
+Decompressed (964 bytes)
+Google::APIClient::Request Result: 403 {"vary"=>"Origin, X-Origin", "content-type"=>"application/json; charset=UTF-8", "date"=>"Fri, 08 Dec 2017 11:11:25 GMT", "expires"=>"Fri, 08 Dec 2017 11:11:25 GMT", "cache-control"=>"private, max-age=0", "x-content-type-options"=>"nosniff", "x-frame-options"=>"SAMEORIGIN", "x-xss-protection"=>"1; mode=block", "server"=>"GSE", "alt-svc"=>"hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"", "connection"=>"close", "transfer-encoding"=>"chunked"}
+Google::APIClient::Request Sending API request get https://www.googleapis.com/drive/v2/files/1aPFd6BmO7CAv79NOLu4jyxcnMN73YD48?fields=++id%2C+title {"User-Agent"=>"ppc-gd/1.0 google-api-ruby-client/0.8.6 Linux/4.10.0-32-generic\n (gzip)", "Accept-Encoding"=>"gzip", "Content-Type"=>"", "Authorization"=>"Bearer ya29.GlscBWOJAWPnp29ludsk2TSIngilkzVCtD37vYOVT_H-iJO1tlQZAkrjvuPPIR4kEjuOubGkB201aA2LQYm-hHhCgfEd3ygjVWgGRbWk7yEDqN0QR6vVXYkZ0ggi", "Cache-Control"=>"no-store"}
+Decompressing gzip encoded response (352 bytes)
+Decompressed (964 bytes)
+Google::APIClient::Request Result: 403 {"vary"=>"Origin, X-Origin", "content-type"=>"application/json; charset=UTF-8", "date"=>"Fri, 08 Dec 2017 11:11:25 GMT", "expires"=>"Fri, 08 Dec 2017 11:11:25 GMT", "cache-control"=>"private, max-age=0", "x-content-type-options"=>"nosniff", "x-frame-options"=>"SAMEORIGIN", "x-xss-protection"=>"1; mode=block", "server"=>"GSE", "alt-svc"=>"hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"", "connection"=>"close", "transfer-encoding"=>"chunked"}
+Google::APIClient::Request Sending API request post https://www.googleapis.com/upload/drive/v2/files?alt=json&uploadType=multipart {"User-Agent"=>"ppc-gd/1.0 google-api-ruby-client/0.8.6 Linux/4.10.0-32-generic\n (gzip)", "Content-Type"=>"multipart/related;boundary=-----------RubyApiMultipartPost", "Content-Length"=>"2004854", "Accept-Encoding"=>"gzip", "Authorization"=>"Bearer ya29.GlscBWOJAWPnp29ludsk2TSIngilkzVCtD37vYOVT_H-iJO1tlQZAkrjvuPPIR4kEjuOubGkB201aA2LQYm-hHhCgfEd3ygjVWgGRbWk7yEDqN0QR6vVXYkZ0ggi", "Cache-Control"=>"no-store"}
+Google::APIClient::Request Result: 403 {"x-guploader-uploadid"=>"AEnB2UpJxyWDg3hoIy-Ohnzc8-It2Vpxodp2DXZSbkuX9Pn7U7udMP8-uISbzk8HFcQ1fFqeKpok1JJjaJlgKC4bYDh5V4tHk5ZObOrfanKCkCWzzY39Ieg", "vary"=>"Origin, X-Origin", "content-type"=>"application/json; charset=UTF-8", "content-length"=>"964", "date"=>"Fri, 08 Dec 2017 11:11:26 GMT", "server"=>"UploadServer", "alt-svc"=>"hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"", "connection"=>"close"}
+  [1m[35m (14.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-12-08 11:11:26.791190"], ["last_sign_in_at", "2017-12-08 11:11:26.791190"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["updated_at", "2017-12-08 11:11:26.793503"], ["id", 18]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2148ms (ActiveRecord: 22.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-08 13:11:26 +0200
+Processing by PagesController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered layouts/_navbar.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 184ms (Views: 178.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-12-08 13:18:31 +0200
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-12-08 13:18:31 +0200
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/shared/_links.erb (1.5ms)
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (33.8ms)
+Completed 200 OK in 650ms (Views: 631.0ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-12-08 13:18:38 +0200
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tI5bkyZc45ZTmiJNvbL84w+JZRHG5KBmWBcIypB8bDYrUHU+JNFF67m1KOpP4XutXFI+MQkRIKLgOuk7m9lEbg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "admin_users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["current_sign_in_at", "2017-12-08 11:18:38.982394"], ["last_sign_in_at", "2017-12-08 08:45:58.238937"], ["sign_in_count", 23], ["updated_at", "2017-12-08 11:18:38.983375"], ["id", 1]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 221ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-12-08 13:18:39 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb (112.2ms)
+Completed 200 OK in 121ms (Views: 115.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-12-08 13:22:57 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb (144.9ms)
+Completed 200 OK in 153ms (Views: 147.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/logout" for 127.0.0.1 at 2017-12-08 13:22:59 +0200
+Processing by ActiveAdmin::Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mzppsdx/q3JpW6xlPuAxaotV37mL+FG2OkOpdhx2J11U3cEQzJdMJI0l9cW4/xLht1Bnwz/c8uz92nnr/7PY+g=="}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 31ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-12-08 13:22:59 +0200
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-12-08 13:22:59 +0200
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/shared/_links.erb (1.3ms)
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (19.5ms)
+Completed 200 OK in 141ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-12-08 13:23:07 +0200
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PSzw9+oTGph8xn4LuBI7FmaFtbrq4NvehqA4IYl0NvW2OoiyPHr5cKju4WUv+rwDHYJ4i2GwRnTNeUxYIuhhWw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PSzw9+oTGph8xn4LuBI7FmaFtbrq4NvehqA4IYl0NvW2OoiyPHr5cKju4WUv+rwDHYJ4i2GwRnTNeUxYIuhhWw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/shared/_links.erb (3.0ms)
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (25.4ms)
+Completed 200 OK in 156ms (Views: 154.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-12-08 13:23:12 +0200
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VWoOuy6iLOqEKPoa6eiuaoimTa8QxK3FJ4r0PnBehVPefHb++MvPAlAAZXR+ACl/86GAnpuUMG9sU4BH28LS/Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "admin_users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["current_sign_in_at", "2017-12-08 11:23:12.623818"], ["last_sign_in_at", "2017-12-08 11:18:38.982394"], ["sign_in_count", 24], ["updated_at", "2017-12-08 11:23:12.624574"], ["id", 1]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 212ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-12-08 13:23:12 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb (120.9ms)
+Completed 200 OK in 127ms (Views: 123.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/logout" for 127.0.0.1 at 2017-12-08 13:23:15 +0200
+Processing by ActiveAdmin::Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xQEFwZQqLG1Zis8xGnHI7bnB7TJPZFBarvwOk0zgdVpc2IODSRvAE5t9+hTTSq/vVFViaR7ScqJkXMbuVm+eiw=="}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-12-08 13:23:15 +0200
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-12-08 13:23:15 +0200
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/shared/_links.erb (1.2ms)
+  Rendered /home/theblackarrow/.rvm/gems/ruby-2.4.2/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (26.2ms)
+Completed 200 OK in 149ms (Views: 146.8ms | ActiveRecord: 0.0ms)
+
+
