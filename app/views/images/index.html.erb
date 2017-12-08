@@ -12,6 +12,9 @@
     <br />
     <%= image.user.nickname %>
     <br/>
+    <%= link_to "Like", voteforphoto_image_path(image.id) %>
+    (<%= @like[image.id] %>)
+    <br/>
     <%= link_to "Delete", image_path(image.id), data: {confim: 'Are you sure?'}, method: :delete %>
     <br/>
   <% end %>

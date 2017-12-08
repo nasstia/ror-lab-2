@@ -40,10 +40,12 @@ before_action :photo_set, only:[:show, :edit, :update, :destroy, :vote]
   def vote
     @photo = Photo.find(params[:id])
     @vote = Vote.where(user_id: current_user.id, photo_id: @photo.id).first
-    if @vote == nil || @vote.like == 0
+    if @vote == nil
        @like = 1
        Vote.create(user_id: current_user.id, photo_id: @photo.id, like: @like)
-     else
+    elsif @vote.like == 0
+         @vote.update(like: @vote.like + 1)
+    else
        @vote.update(like: @vote.like - 1)
     end
     redirect_to photos_path
