@@ -12,5 +12,7 @@
     <br />
     <%= image.user.nickname %>
     <br/>
+    <%= link_to "Delete", image_path(image.id), data: {confim: 'Are you sure?'}, method: :delete %>
+    <br/>
   <% end %>
 <% end %>

@@ -1,5 +1,6 @@
 class ImagesController < ApplicationController
   before_action :authenticate_user!
+  before_action :image_set, only:[:destroy]
 
   def index
     @images = Image.all
@@ -19,10 +20,19 @@ class ImagesController < ApplicationController
     redirect_to images_path
   end
 
+  def destroy
+    @image.destroy
+    redirect_to images_path
+  end
+
 private
 
   def image_params
     params.require(:images).permit(:user_id, :image)
+  end
+
+  def image_set
+    pp @image = Image.find(params[:id])
   end
 
 end

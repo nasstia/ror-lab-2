@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-
   get 'images/new'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
